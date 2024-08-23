@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UCMDB Information</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>UCMDB Information</h1>
+        </header>
+        <main>
+            <div class="left-side">
+                <h2>Servers in UCMDB:</h2>
+                <ul id="serverList">
+                    <% servers.forEach(server => { %>
+                        <li><%= server %></li>
+                    <% }); %>
+                </ul>
+                <button onclick="updateServers()">Update Servers</button>
+                <form onsubmit="return addServer()">
+                    <input type="text" id="newServer" placeholder="New server name">
+                    <button type="submit">Add Server</button>
+                </form>
+            </div>
+            <div class="right-side">
+                <h2>Databases in UCMDB:</h2>
+                <ul id="databaseList">
+                    <% databases.forEach(database => { %>
+                        <li><%= database %></li>
+                    <% }); %>
+                </ul>
+                <button onclick="updateDatabases()">CI Getir</button>
+                <form onsubmit="return addDatabase()">
+                    <input type="text" id="newDatabase" placeholder="New database name">
+                    <button type="submit">Add Database</button>
+                </form>
+            </div>
+        </main>
+    </div>
+    <script>
+        async function updateServers() {
+            try {
+                const response = await fetch('/update-servers');
+                const data = await response.json();
+                const serverList = document.getElementById('serverList');
+                serverList.innerHTML = data.servers.map(server => `<li>${server}</li>`).join('');
+            } catch (error) {
+                console.error('Sunucu güncelleme hatası:', error);
+                alert('Sunucular güncellenirken bir hata oluştu');
+            }
+        }
+
+        async function updateDatabases() {
+            try {
+                const response = await fetch('/update-databases');
+                const data = await response.json();
+                const databaseList = document.getElementById('databaseList');
+                databaseList.innerHTML = data.databases.map(database => `<li>${database}</li>`).join('');
+            } catch (error) {
+                console.error('Veritabanı güncelleme hatası:', error);
+                alert('Veritabanları güncellenirken bir hata oluştu');
+            }
+        }
+
+        async function addServer() {
+            const serverName = document.getElementById('newServer').value;
+            if (!serverName) return false;
+            try {
+                await fetch('/add-server', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ serverName })
+                });
+                updateServers();
+                document.getElementById('newServer').value = '';
+            } catch (error) {
+                console.error('Sunucu ekleme hatası:', error);
+                alert('Sunucu eklenirken bir hata oluştu');
+            }
+            return false;
+        }
+
+        async function addDatabase() {
+            const databaseName = document.getElementById('newDatabase').value;
+            if (!databaseName) return false;
+            try {
+                await fetch('/add-database', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ databaseName })
+                });
+                updateDatabases();
+                document.getElementById('newDatabase').value = '';
+            } catch (error) {
+                console.error('Veritabanı ekleme hatası:', error);
+                alert('Veritabanı eklenirken bir hata oluştu');
+            }
+            return false;
+        }
+    </script>
+</body>
+</html>

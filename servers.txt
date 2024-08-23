@@ -1,0 +1,11 @@
+app-server-01
+web-server-02
+db-server-03
+file-server-04
+mail-server-05
+auth-server-06
+proxy-server-07
+backup-server-08
+test-server-09
+dev-server-10
+test2-server-11

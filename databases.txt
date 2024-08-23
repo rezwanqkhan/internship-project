@@ -1,0 +1,12 @@
+customers_db
+products_db
+orders_db
+inventory_db
+users_db
+analytics_db
+logs_db
+finance_db
+hr_db
+marketing_db
+shoping_db
+shoping_db
