@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UCMDB Server and Database Information</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  
+   <body>
+    <div class="column">
+        <h2>UCMDB'deki Sunucular</h2>
+        <div class="button-container">
+            <button onclick="updateServers()">Update</button>
+            <button onclick="getServerCIs()">CI Getir</button>
+        </div>
+        <div id="serverList"></div>
+    </div>
+    <div class="column">
+        <h2>UCMDB'deki Veritabanları</h2>
+        <div class="button-container">
+            <button onclick="updateDatabases()">Update</button>
+            <button onclick="getDatabaseCIs()">CI Getir</button>
+        </div>
+        <div id="databaseList"></div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
