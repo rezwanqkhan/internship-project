@@ -1,5 +1,5 @@
-MySQL_ProductionDB
-Oracle_FinanceDB
+MySQL_ProductionDB,up
+Oracle_FinanceDB,undefineddss
 PostgreSQL_UserDB
 MongoDB_LogDB
 MSSQL_InventoryDB

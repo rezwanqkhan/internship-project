@@ -7,25 +7,38 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  
-   <body>
     <div class="column">
-        <h2>UCMDB'deki Sunucular</h2>
+        <h2> the Servers in UCMDB</h2>
+        <table id="serverTable">
+            <thead>
+                <tr>
+                    <th>Server name</th>
+                     
+                </tr>
+            </thead>
+            <tbody id="serverList"></tbody>
+        </table>
         <div class="button-container">
             <button onclick="updateServers()">Update</button>
-            <button onclick="getServerCIs()">CI Getir</button>
+            <button onclick="getServerCIs()">Bring the CIs</button>
         </div>
-        <div id="serverList"></div>
     </div>
     <div class="column">
-        <h2>UCMDB'deki Veritabanları</h2>
+        <h2>the Databeses in UCMDB</h2>
+        <table id="databaseTable">
+            <thead>
+                <tr>
+                    <th>Database name</th>
+                    
+                </tr>
+            </thead>
+            <tbody id="databaseList"></tbody>
+        </table>
         <div class="button-container">
             <button onclick="updateDatabases()">Update</button>
-            <button onclick="getDatabaseCIs()">CI Getir</button>
+            <button onclick="getDatabaseCIs()">Bring the CIs</button>
         </div>
-        <div id="databaseList"></div>
     </div>
-
 
     <script src="script.js"></script>
 </body>

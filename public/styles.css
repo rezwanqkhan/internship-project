@@ -3,8 +3,18 @@ body {
     margin: 0;
     padding: 0;
     display: flex;
-    height: 100vh;
-    background-color: #f0f2f5;
+  
+   
+}
+.ci-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.ci-item button {
+    margin-left: 10px;
 }
 
 .column {
@@ -54,6 +64,7 @@ button:hover {
     min-height: 200px;
     overflow-y: auto;
     line-height: 1.6;
+    border-radius: 10%;
 }
 
 /* Responsive design */
@@ -66,4 +77,28 @@ button:hover {
         margin: 10px;
         padding: 20px;
     }
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.button-container {
+    margin-top: 10px;
+}
+
+button {
+    margin-right: 10px;
 }
