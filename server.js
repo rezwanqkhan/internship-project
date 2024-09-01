@@ -77,65 +77,41 @@ app.get('/get-database-cis', (req, res) => {
 });
 
 // New endpoint to handle CI updates
-app.post('/update-ci', (req, res) => {
-    // Extract CI information from the request body
-    const { ciType, ciName, newStatus } = req.body;
-    let filename;
+// app.post('/update-ci', (req, res) => {
+//     // Extract CI information from the request body
+//     // const { ciType, ciName, newStatus } = req.body;
+//     // let filename;
 
-    // Determine which file to update based on CI type
-    if (ciType === 'server') {
-        filename = 'servers.txt';
-    } else if (ciType === 'database') {
-        filename = 'databases.txt';
-    } else {
-        return res.status(400).json({ error: 'Invalid CI type' });
-    }
+//     // Determine which file to update based on CI type
+   
 
-    try {
-        // Read the current CIs from the file
-        let cis = fs.readFileSync(filename, 'utf-8').split('\n').filter(Boolean);
-        // Find the index of the CI to update
-        const index = cis.findIndex(ci => ci.split(',')[0] === ciName);
-        
-        if (index !== -1) {
-            // Update the CI status
-            cis[index] = `${ciName},${newStatus}`;
-            // Write the updated CIs back to the file
-            fs.writeFileSync(filename, cis.join('\n'));
-            res.json({ message: 'CI updated successfully' });
-        } else {
-            res.status(404).json({ error: 'CI not found' });
-        }
-    } catch (error) {
-        console.error(`Error updating ${filename}:`, error);
-        res.status(500).json({ error: 'Failed to update CI' });
-    }
-
-    // UCMDB API update call (currently disabled)
-    /*
-    try {
-        // Make a PUT request to update the CI in UCMDB
-        const response = await axios.put(`${UCMDB_API_URL}/${ciType}s/${ciName}`, 
-            { status: newStatus },
-            {
-                auth: {
-                    username: UCMDB_API_USERNAME,
-                    password: UCMDB_API_PASSWORD
-                }
-            }
-        );
-        if (response.status === 200) {
-            res.json({ message: 'CI updated successfully in UCMDB' });
-        } else {
-            res.status(response.status).json({ error: 'Failed to update CI in UCMDB' });
-        }
-    } catch (error) {
-        console.error('Error updating CI in UCMDB:', error);
-        res.status(500).json({ error: 'Failed to update CI in UCMDB' });
-    }
-    */
-});
+//     // UCMDB API update call (currently disabled)
+//     /*
+//     try {
+//         // Make a PUT request to update the CI in UCMDB
+//         const response = await axios.put(`${UCMDB_API_URL}/${ciType}s/${ciName}`, 
+//             { status: newStatus },
+//             {
+//                 auth: {
+//                     username: UCMDB_API_USERNAME,
+//                     password: UCMDB_API_PASSWORD
+//                 }
+//             }
+//         );
+//         if (response.status === 200) {
+//             res.json({ message: 'CI updated successfully in UCMDB' });
+//         } else {
+//             res.status(response.status).json({ error: 'Failed to update CI in UCMDB' });
+//         }
+//     } catch (error) {
+//         console.error('Error updating CI in UCMDB:', error);
+//         res.status(500).json({ error: 'Failed to update CI in UCMDB' });
+//     }
+//     */
+// });
 
 app.listen(port, () => {
     console.log(`Server running at http://localhost:${port}`);
 });
+
+// app.use(express.static(path.join(__dirname, 'public')));
