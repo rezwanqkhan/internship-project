@@ -76,39 +76,7 @@ app.get('/get-database-cis', (req, res) => {
     */
 });
 
-// New endpoint to handle CI updates
-// app.post('/update-ci', (req, res) => {
-//     // Extract CI information from the request body
-//     // const { ciType, ciName, newStatus } = req.body;
-//     // let filename;
 
-//     // Determine which file to update based on CI type
-   
-
-//     // UCMDB API update call (currently disabled)
-//     /*
-//     try {
-//         // Make a PUT request to update the CI in UCMDB
-//         const response = await axios.put(`${UCMDB_API_URL}/${ciType}s/${ciName}`, 
-//             { status: newStatus },
-//             {
-//                 auth: {
-//                     username: UCMDB_API_USERNAME,
-//                     password: UCMDB_API_PASSWORD
-//                 }
-//             }
-//         );
-//         if (response.status === 200) {
-//             res.json({ message: 'CI updated successfully in UCMDB' });
-//         } else {
-//             res.status(response.status).json({ error: 'Failed to update CI in UCMDB' });
-//         }
-//     } catch (error) {
-//         console.error('Error updating CI in UCMDB:', error);
-//         res.status(500).json({ error: 'Failed to update CI in UCMDB' });
-//     }
-//     */
-// });
 
 app.listen(port, () => {
     console.log(`Server running at http://localhost:${port}`);
