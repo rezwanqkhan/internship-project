@@ -35,7 +35,6 @@ function updateServers() {
 
 // Function to update databases (now just refreshes the list)
 function updateDatabases() {
-    
     alert('Veritabanı listesi yenilendi!');
     getDatabaseCIs();
 }

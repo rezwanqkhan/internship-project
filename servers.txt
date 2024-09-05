@@ -3,4 +3,6 @@ AppServer02,up
 DatabaseServer03,down
 FileServer04,up
 PrintServer05
+PrintServer06
+PrintServer07
  
