@@ -83,4 +83,55 @@ app.listen(port, () => {
     console.log(`Server running at http://localhost:${port}`);
 });
 
-// app.use(express.static(path.join(__dirname, 'public')));
+ 
+
+// run the following code when u using the UCMDB endpoint
+/*
+const express = require('express');
+const axios = require('axios');
+
+const app = express();
+const port = 3000;
+
+const UCMDB_API_URL = 'https://your-ucmdb-api-url.com/api';
+const UCMDB_API_USERNAME = 'your-username';
+const UCMDB_API_PASSWORD = 'your-password';
+
+app.use(express.static('public'));
+app.use(express.json());
+
+app.get('/get-server-cis', async (req, res) => {
+    try {
+        const response = await axios.get(`${UCMDB_API_URL}/servers`, {
+            auth: {
+                username: UCMDB_API_USERNAME,
+                password: UCMDB_API_PASSWORD
+            }
+        });
+        const servers = response.data.map(server => server.name);
+        res.json(servers);
+    } catch (error) {
+        console.error('UCMDB\'den sunucular alınırken hata oluştu:', error);
+        res.status(500).json({ error: 'UCMDB\'den sunucular alınamadı' });
+    }
+});
+
+app.get('/get-database-cis', async (req, res) => {
+    try {
+        const response = await axios.get(`${UCMDB_API_URL}/databases`, {
+            auth: {
+                username: UCMDB_API_USERNAME,
+                password: UCMDB_API_PASSWORD
+            }
+        });
+        const databases = response.data.map(db => db.name);
+        res.json(databases);
+    } catch (error) {
+        console.error('UCMDB\'den veritabanları alınırken hata oluştu:', error);
+        res.status(500).json({ error: 'UCMDB\'den veritabanları alınamadı' });
+    }
+});
+
+app.listen(port, () => {
+    console.log(`Sunucu http://localhost:${port} adresinde çalışıyor`);
+});     */
