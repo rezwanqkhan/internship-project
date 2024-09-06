@@ -19,8 +19,8 @@ async function readJSONFile(filename) {
 
 app.get('/get-nodes', async (req, res) => {
     try {
-        const jsonData = await readJSONFile('nodes_query.json'); // Assumes this reads the JSON file correctly
-        if (!jsonData.cis || !Array.isArray(jsonData.cis)) { // Ensure there is a 'cis' key and it's an array
+        const jsonData = await readJSONFile('nodes_query.json');  
+        if (!jsonData.cis || !Array.isArray(jsonData.cis)) {  
             throw new Error('Data read from file is not structured as expected');
         }
         res.json(jsonData.cis);
