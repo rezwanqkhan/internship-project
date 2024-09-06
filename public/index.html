@@ -12,30 +12,41 @@
         <table id="nodeTable">
             <thead>
                 <tr>
-                    <th>Label</th>
-                    <th>Type</th>
-                    <th>UCMDB ID</th>
+                    <th style="color: green">Label</th>
+                    <th style="color: green">Type</th>
+                    <th style="color: green">UCMDB ID</th>
                 </tr>
-            </thead>
+                </thead>
             <tbody id="nodeList"></tbody>
         </table>
+    
+        <h2>Node Type Counts</h2>
+        <ul id="nodeCounts"></ul>
         <div class="button-container">
             <button onclick="updateNodes()">Update</button>
             <button onclick="getNodes()">Bring the Nodes</button>
         </div>
     </div>
     <div class="column">
-        <h2>Computers in UCMDB</h2>
+        <h2>Databases in UCMDB</h2>
         <table id="computerTable">
+            
             <thead>
-                <tr>
-                    <th>Label</th>
-                    <th>Type</th>
-                    <th>UCMDB ID</th>
-                </tr>
+            <tr>
+                <th style="color: green">Label</th>
+                <th style="color: green">Type</th>
+                <th style="color: green">UCMDB ID</th>
+            </tr>
             </thead>
-            <tbody id="computerList"></tbody>
+            <tbody id="computerList">
+          
+           
+             
+            </tbody>
         </table>
+    
+        <h2>Databas Type Counts</h2>
+        <ul id="computerCounts"></ul>
         <div class="button-container">
             <button onclick="updateComputers()">Update</button>
             <button onclick="getComputers()">Bring the Computers</button>
