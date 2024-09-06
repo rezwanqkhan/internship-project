@@ -1,0 +1,3326 @@
+{
+  "cis" : [ {
+    "ucmdbId" : "49c17e6d9e4980e3b4b9d177b885e5e0",
+    "globalId" : null,
+    "type" : "vmware_esx_server",
+    "properties" : {
+      "display_label" : "s001esxi1",
+      "discovered_model" : "SYS-7049A-T",
+      "discovered_os_name" : "VMkernel",
+      "serial_number" : "A280025X9C01495",
+      "root_class" : "vmware_esx_server",
+      "memory_size" : 391841
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "48dfaa5a7eb788a09fa591c48385aef2",
+    "globalId" : null,
+    "type" : "vmware_esx_server",
+    "properties" : {
+      "display_label" : "s001esxi2",
+      "discovered_model" : "ProLiant ML350p Gen8",
+      "discovered_os_name" : "vmnix-x86",
+      "serial_number" : "CZ232404HF",
+      "root_class" : "vmware_esx_server",
+      "memory_size" : 262109
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "46db8c05d613911ab191d971d421b490",
+    "globalId" : null,
+    "type" : "vmware_esx_server",
+    "properties" : {
+      "display_label" : "emeljen10",
+      "discovered_model" : "ProLiant ML350 Gen10",
+      "discovered_os_name" : "VMkernel",
+      "serial_number" : "CZJ05305Y4",
+      "root_class" : "vmware_esx_server",
+      "memory_size" : 261797
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "49bcb3676d4737abb77d275f48989af0",
+    "globalId" : null,
+    "type" : "node",
+    "properties" : {
+      "display_label" : "192.168.0.102 Konsalt",
+      "root_class" : "node"
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "4fe6a7e15c624eb1b5ac9e9d065cbcd6",
+    "globalId" : null,
+    "type" : "node",
+    "properties" : {
+      "display_label" : "8.8.8.8 Konsalt",
+      "root_class" : "node"
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "444286bc1cebaf71adf7e2a2ed056ee2",
+    "globalId" : null,
+    "type" : "node",
+    "properties" : {
+      "display_label" : "156.146.52.79 Konsalt",
+      "root_class" : "node"
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "403322922492313690b932593acf03a2",
+    "globalId" : null,
+    "type" : "node",
+    "properties" : {
+      "display_label" : "192.168.1.38 Konsalt",
+      "root_class" : "node"
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "420fc76c8cf6f286a4a034756d0a4236",
+    "globalId" : null,
+    "type" : "node",
+    "properties" : {
+      "display_label" : "192.168.2.46 Konsalt",
+      "root_class" : "node"
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "40a1012ba5fa351c884f85708dd0bded",
+    "globalId" : null,
+    "type" : "vmware_virtual_switch",
+    "properties" : {
+      "display_label" : "vswitch0",
+      "root_class" : "vmware_virtual_switch"
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "419922d83ed21c4a9f00e3204544764b",
+    "globalId" : null,
+    "type" : "vmware_virtual_switch",
+    "properties" : {
+      "display_label" : "vswitch0",
+      "root_class" : "vmware_virtual_switch"
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "48c9ce0bfa9800b5baa191733da4f544",
+    "globalId" : null,
+    "type" : "vmware_virtual_switch",
+    "properties" : {
+      "display_label" : "vswitch1",
+      "root_class" : "vmware_virtual_switch"
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "42841225c7ec03e680f88635a3b72231",
+    "globalId" : null,
+    "type" : "vmware_virtual_switch",
+    "properties" : {
+      "display_label" : "vswitch1",
+      "root_class" : "vmware_virtual_switch"
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "4ec2538f031d818da63fe45f928893d0",
+    "globalId" : null,
+    "type" : "nt",
+    "properties" : {
+      "display_label" : "vm-1",
+      "discovered_os_name" : "Windows",
+      "serial_number" : "VMWARE-42 05 E7 E3 44 B6 6B 8C-0D FE 25 8A 1B E8 16 E9",
+      "root_class" : "nt",
+      "primary_ip_address" : "192.168.73.46",
+      "memory_size" : 16384
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "438d14c11feebeefb2343a5496d0a1f0",
+    "globalId" : null,
+    "type" : "nt",
+    "properties" : {
+      "display_label" : "dras-ss-rds",
+      "discovered_model" : "Vmware7,1",
+      "discovered_os_name" : "Windows 2019",
+      "serial_number" : "VMWARE-42 05 25 F6 F5 2B 1E 50-A7 01 CF 12 09 44 27 B3",
+      "root_class" : "nt",
+      "memory_size" : 8192
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "48d58f2a58745ab79320fcfeb6fd544c",
+    "globalId" : null,
+    "type" : "nt",
+    "properties" : {
+      "display_label" : "tevfik-centrify-rasdb-test",
+      "discovered_model" : "Vmware7,1",
+      "discovered_os_name" : "Windows 2019",
+      "serial_number" : "VMWARE-42 05 2F A8 7B F3 BF A6-CD C5 BF 67 B8 B0 DF F2",
+      "root_class" : "nt",
+      "memory_size" : 8192
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "467d4df9077281979ab7f46fa0c163a3",
+    "globalId" : null,
+    "type" : "nt",
+    "properties" : {
+      "display_label" : "vltfusiondemo01",
+      "discovered_os_name" : "Windows",
+      "serial_number" : "VMWARE-42 05 0D A7 3E A8 26 43-70 D1 C5 73 48 54 55 4D",
+      "root_class" : "nt",
+      "primary_ip_address" : "192.168.2.5",
+      "memory_size" : 16384
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "439f87bb0ec9e8daba593db0571cb057",
+    "globalId" : null,
+    "type" : "nt",
+    "properties" : {
+      "display_label" : "dras-ss-cbs",
+      "serial_number" : "VMWARE-42 05 A3 82 3A C5 C0 CD-7D EF 04 D9 AD 6F 89 17",
+      "root_class" : "nt",
+      "memory_size" : 4096
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "4c1163bb79a2c8aba116727a1bacd6bf",
+    "globalId" : null,
+    "type" : "nt",
+    "properties" : {
+      "display_label" : "tevfik-sqlalwayson1",
+      "serial_number" : "VMWARE-42 05 A2 E3 9C 10 BB 51-92 23 33 3F F2 40 C8 65",
+      "root_class" : "nt",
+      "memory_size" : 8192
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "4daf2afaab48c272ac29270e2d841bf1",
+    "globalId" : null,
+    "type" : "nt",
+    "properties" : {
+      "display_label" : "dras-ss-rds2",
+      "serial_number" : "VMWARE-42 05 99 7C 16 01 C5 0B-06 D5 5D 16 DE B9 9B 95",
+      "root_class" : "nt",
+      "memory_size" : 4096
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "4fc26dcc55aaf03eacf5a704e5f60f40",
+    "globalId" : null,
+    "type" : "nt",
+    "properties" : {
+      "display_label" : "s001ucmdb1",
+      "discovered_model" : "Vmware7,1",
+      "discovered_os_name" : "Windows 2016",
+      "serial_number" : "VMWARE-42 05 74 C5 96 AD B2 76-C8 42 33 BC 32 2F 47 E1",
+      "root_class" : "nt",
+      "primary_ip_address" : "192.168.1.14",
+      "memory_size" : 16384
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "4c1fa7cdca7e470ea9110b606a853492",
+    "globalId" : null,
+    "type" : "nt",
+    "properties" : {
+      "display_label" : "hakki-win16",
+      "serial_number" : "VMWARE-42 05 22 A3 64 D2 72 35-D7 9D 3D C2 5F 2F 21 18",
+      "root_class" : "nt",
+      "memory_size" : 8192
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "4d72cdbf99df3405b11b0902d35eabe9",
+    "globalId" : null,
+    "type" : "nt",
+    "properties" : {
+      "display_label" : "pm-webserver3",
+      "discovered_os_name" : "Windows 2022",
+      "root_class" : "nt",
+      "memory_size" : 16383
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "48ed4848737216d4a3b18fea0490728d",
+    "globalId" : null,
+    "type" : "nt",
+    "properties" : {
+      "display_label" : "dras-ss-cls",
+      "serial_number" : "VMWARE-42 05 12 14 25 9B C4 E3-7B 7C F2 3E 0B 78 FA A5",
+      "root_class" : "nt",
+      "memory_size" : 8192
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "4fd98d742b33c0f188daebd4e28dd0b3",
+    "globalId" : null,
+    "type" : "nt",
+    "properties" : {
+      "display_label" : "s001trm2",
+      "discovered_model" : "Vmware7,1",
+      "discovered_os_name" : "Windows 2016",
+      "serial_number" : "VMWARE-42 05 DD 3A 64 B7 0F E4-8A D0 8C ED D6 AC E5 D0",
+      "root_class" : "nt",
+      "primary_ip_address" : "192.168.1.5",
+      "memory_size" : 32768
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "4fb056d7e7ed91808501bc1044a218b0",
+    "globalId" : null,
+    "type" : "nt",
+    "properties" : {
+      "display_label" : "konsalt-dc",
+      "discovered_model" : "Vmware7,1",
+      "discovered_os_name" : "Windows 2019",
+      "serial_number" : "VMWARE-42 2D 8D 54 95 80 5F 37-E3 F2 32 E2 2F 5B 0B 09",
+      "root_class" : "nt",
+      "primary_ip_address" : "192.168.1.10",
+      "memory_size" : 4096
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "4850b6e1787428c49d6cf44e5e6e048e",
+    "globalId" : null,
+    "type" : "nt",
+    "properties" : {
+      "display_label" : "goksel-win-22",
+      "discovered_os_name" : "Windows",
+      "serial_number" : "VMWARE-42 05 8D 2D 05 C1 7D 89-14 1C 55 8F BC E4 BF 01",
+      "root_class" : "nt",
+      "primary_ip_address" : "192.168.34.33",
+      "memory_size" : 16384
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "496ee83960f67f97aff2959a633559a4",
+    "globalId" : null,
+    "type" : "nt",
+    "properties" : {
+      "display_label" : "hakki-win-22",
+      "discovered_os_name" : "Windows",
+      "serial_number" : "VMWARE-42 05 A1 38 29 4C 5E 58-06 CF F9 BB 45 7D FA 12",
+      "root_class" : "nt",
+      "primary_ip_address" : "192.168.2.122",
+      "memory_size" : 8192
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "4d1831af48c43d23a901c6b84d7bf14d",
+    "globalId" : null,
+    "type" : "nt",
+    "properties" : {
+      "display_label" : "s001hyper01",
+      "discovered_model" : "Tecal RH1285",
+      "discovered_os_name" : "Windows 2022",
+      "serial_number" : "210231818510D1000102",
+      "root_class" : "nt",
+      "memory_size" : 114688
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "494e0598434dd62c868f1ab4e6b3863e",
+    "globalId" : null,
+    "type" : "nt",
+    "properties" : {
+      "display_label" : "demo-ssdb",
+      "discovered_model" : "Vmware7,1",
+      "discovered_os_name" : "Windows 2019",
+      "serial_number" : "VMWARE-42 05 C5 91 2A 90 FC 16-35 18 18 FD 67 75 06 E2",
+      "root_class" : "nt",
+      "memory_size" : 16384
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "431d69db6f994e6795456cbd76847835",
+    "globalId" : null,
+    "type" : "nt",
+    "properties" : {
+      "display_label" : "win-ngfcq2383vi",
+      "discovered_os_name" : "Windows",
+      "serial_number" : "VMWARE-42 05 EF 8F 83 3F 34 80-77 6F 87 6D 1C C6 74 0C",
+      "root_class" : "nt",
+      "primary_ip_address" : "192.168.2.18",
+      "memory_size" : 24576
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "42291dd2caaab659b8bd510c4823bf62",
+    "globalId" : null,
+    "type" : "nt",
+    "properties" : {
+      "display_label" : "tevfik-pmclientsrv2019",
+      "serial_number" : "VMWARE-42 05 BC 05 7D 55 DD 5D-20 D4 63 99 FE 40 4B A0",
+      "root_class" : "nt",
+      "memory_size" : 32768
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "4ee13909b26ce1aeb417a9140915c361",
+    "globalId" : null,
+    "type" : "nt",
+    "properties" : {
+      "display_label" : "tevfik-pm-client01",
+      "serial_number" : "VMWARE-42 05 03 BA BE 13 14 2F-8D 4F DA AF 61 49 7B 54",
+      "root_class" : "nt",
+      "memory_size" : 16384
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "4476a0fe0c65e2fa9b3e91ff6d32a7eb",
+    "globalId" : null,
+    "type" : "nt",
+    "properties" : {
+      "display_label" : "win-kbka4jqnt5o",
+      "discovered_os_name" : "Windows",
+      "serial_number" : "VMWARE-42 05 10 B8 48 B4 DE F0-7A F0 F2 57 0B C4 E2 80",
+      "root_class" : "nt",
+      "primary_ip_address" : "192.168.2.27",
+      "memory_size" : 16384
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "482002c05daf81cb97b8b3c452a6a339",
+    "globalId" : null,
+    "type" : "nt",
+    "properties" : {
+      "display_label" : "p2con",
+      "serial_number" : "VMWARE-42 05 E0 B6 81 B8 7E D5-74 5E 59 59 44 5B 28 44",
+      "root_class" : "nt",
+      "memory_size" : 8192
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "488d28f34a8a204eb7404e7e59777ed4",
+    "globalId" : null,
+    "type" : "nt",
+    "properties" : {
+      "display_label" : "tevfik-sdm241",
+      "serial_number" : "VMWARE-42 05 A0 F4 F7 2B CD EC-17 EB C4 D1 59 1C 75 A7",
+      "root_class" : "nt",
+      "memory_size" : 8192
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "49cf1b4f7306142dafba2e3240a12fea",
+    "globalId" : null,
+    "type" : "nt",
+    "properties" : {
+      "display_label" : "demo-ss02",
+      "discovered_model" : "Vmware7,1",
+      "discovered_os_name" : "Windows 2019",
+      "serial_number" : "VMWARE-42 05 D7 66 89 EA C2 B4-28 A4 A3 B2 79 F0 8F 63",
+      "root_class" : "nt",
+      "primary_ip_address" : "192.168.1.238",
+      "memory_size" : 20480
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "4bd40a1db7ef5828a6a42f72fc618a93",
+    "globalId" : null,
+    "type" : "nt",
+    "properties" : {
+      "display_label" : "vm-1",
+      "discovered_os_name" : "Windows",
+      "serial_number" : "VMWARE-42 05 19 FE F5 A9 94 A1-CE 88 12 2A 5C 4C 6D 84",
+      "root_class" : "nt",
+      "primary_ip_address" : "192.168.38.61",
+      "memory_size" : 16384
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "460eca1a553bdfdd967d73cab1d2d8bf",
+    "globalId" : null,
+    "type" : "nt",
+    "properties" : {
+      "display_label" : "vm-1",
+      "discovered_os_name" : "Windows",
+      "serial_number" : "VMWARE-42 05 06 9C AA DC 50 75-93 04 9B 0C E9 02 1D B0",
+      "root_class" : "nt",
+      "primary_ip_address" : "192.168.23.61",
+      "memory_size" : 16384
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "4df60a174f016186a5c5da4314d74a57",
+    "globalId" : null,
+    "type" : "nt",
+    "properties" : {
+      "display_label" : "dnd_prtg",
+      "serial_number" : "VMWARE-42 2D 1D CA 52 39 E6 A9-61 9C 25 AA 56 A7 EF 1B",
+      "root_class" : "nt",
+      "memory_size" : 16384
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "439c4a8c15eb5891a629294636a65e0e",
+    "globalId" : null,
+    "type" : "nt",
+    "properties" : {
+      "display_label" : "goksel-win-16",
+      "serial_number" : "VMWARE-42 05 76 1D 52 4D B7 FC-2D 1C 43 15 AF EC D7 DD",
+      "root_class" : "nt",
+      "memory_size" : 16384
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "42f01da74a35e4c8aec7bacce269b014",
+    "globalId" : null,
+    "type" : "nt",
+    "properties" : {
+      "display_label" : "demo-ssrds",
+      "discovered_model" : "Vmware7,1",
+      "discovered_os_name" : "Windows 2019",
+      "serial_number" : "VMWARE-42 05 AE 62 84 BE 62 7D-B7 64 0A 1E 60 2D E6 EC",
+      "root_class" : "nt",
+      "primary_ip_address" : "192.168.1.246",
+      "memory_size" : 16384
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "4a8a50692c7bdee7b54c218bbc71e0d5",
+    "globalId" : null,
+    "type" : "nt",
+    "properties" : {
+      "display_label" : "tevfik_pmdc",
+      "serial_number" : "VMWARE-42 05 7B C8 DE 2D CC AA-E4 11 BC 28 DB 84 48 89",
+      "root_class" : "nt",
+      "memory_size" : 4096
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "427ed41ccecc5e41b9721f3f86609ea0",
+    "globalId" : null,
+    "type" : "nt",
+    "properties" : {
+      "display_label" : "win-1dddh22i8s1",
+      "serial_number" : "VMWARE-42 05 19 2C 9F 19 1E 51-96 A2 6E 91 03 94 69 B7",
+      "root_class" : "nt",
+      "memory_size" : 16384
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "4fe0e76f34dfca09a673ec499ef48f40",
+    "globalId" : null,
+    "type" : "nt",
+    "properties" : {
+      "display_label" : "demo-ss01",
+      "discovered_model" : "Vmware7,1",
+      "discovered_os_name" : "Windows 2019",
+      "serial_number" : "VMWARE-42 05 73 E0 CC 9A BC B0-A1 22 C5 A7 9A 12 D3 91",
+      "root_class" : "nt",
+      "primary_ip_address" : "192.168.1.250",
+      "memory_size" : 20480
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "4f96d9074ffed396937a6ea3fd26d780",
+    "globalId" : null,
+    "type" : "nt",
+    "properties" : {
+      "display_label" : "s001sis1",
+      "discovered_model" : "Vmware7,1",
+      "discovered_os_name" : "Windows 2016",
+      "serial_number" : "VMWARE-42 05 D4 24 9D C0 33 81-B4 4E A3 1E F0 87 23 8D",
+      "root_class" : "nt",
+      "memory_size" : 20480
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "4cf0b13340d102e1a9a9cd67d89bf7cb",
+    "globalId" : null,
+    "type" : "nt",
+    "properties" : {
+      "display_label" : "s001trm1",
+      "serial_number" : "VMWARE-56 4D 8E 34 95 4F E3 C1-77 E1 B8 B5 63 48 03 D2",
+      "root_class" : "nt",
+      "memory_size" : 16384
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "41b8c997c97e81c5a8b6801536f69f67",
+    "globalId" : null,
+    "type" : "nt",
+    "properties" : {
+      "display_label" : "arda_win_srv_2019",
+      "serial_number" : "VMWARE-42 05 10 EB 14 9D CE A6-D8 30 EF 90 99 CE AD 56",
+      "root_class" : "nt",
+      "memory_size" : 8192
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "40f7933ce6498b209db2ce389dc361a6",
+    "globalId" : null,
+    "type" : "nt",
+    "properties" : {
+      "display_label" : "tevfik-pmagentinstallgpo_w10",
+      "discovered_os_name" : "Windows",
+      "serial_number" : "VMWARE-42 05 65 40 15 60 62 C2-A2 98 AD 7B 5B 12 07 B1",
+      "root_class" : "nt",
+      "memory_size" : 8192
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "423271b96d70e28f809d7ccb016a8767",
+    "globalId" : null,
+    "type" : "nt",
+    "properties" : {
+      "display_label" : "s001mssql",
+      "discovered_model" : "Vmware7,1",
+      "discovered_os_name" : "Windows 2016",
+      "serial_number" : "VMWARE-42 05 FA 2F 85 7A CF C5-9C A0 13 34 3C C2 AF E5",
+      "root_class" : "nt",
+      "memory_size" : 16384
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "45bce4b8ab11a6d89fb70fdbd6f9a4d6",
+    "globalId" : null,
+    "type" : "nt",
+    "properties" : {
+      "display_label" : "ipam-test",
+      "serial_number" : "VMWARE-42 05 3A E9 27 6A AF 26-16 AE 3A 17 E2 AD C9 02",
+      "root_class" : "nt",
+      "memory_size" : 20480
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "4953e54fae040781bd6d29aae6a5aca2",
+    "globalId" : null,
+    "type" : "nt",
+    "properties" : {
+      "display_label" : "deneme-win",
+      "serial_number" : "VMWARE-42 05 52 DD A1 1E 0C 1F-81 6E F1 4C E6 BE DE 38",
+      "root_class" : "nt",
+      "primary_ip_address" : "192.168.3.233",
+      "memory_size" : 16384
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "43f7002a70f08745b1472be6c6ce0f7c",
+    "globalId" : null,
+    "type" : "nt",
+    "properties" : {
+      "display_label" : "tevfik-sqlalwayson2",
+      "serial_number" : "VMWARE-42 05 D3 D6 F3 85 97 34-38 01 B5 BA 30 18 97 23",
+      "root_class" : "nt",
+      "memory_size" : 8192
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "4821597a53344ea9be7afedbbf089fcc",
+    "globalId" : null,
+    "type" : "nt",
+    "properties" : {
+      "display_label" : "tevfik-oracle",
+      "serial_number" : "VMWARE-42 05 D0 F9 6C B6 38 4C-44 12 F2 6A A8 97 81 19",
+      "root_class" : "nt",
+      "memory_size" : 16384
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "4c5775a6e0b29a6dbbe97f692ce1a425",
+    "globalId" : null,
+    "type" : "nt",
+    "properties" : {
+      "display_label" : "tevfik-voltage_sdm_sqlserver",
+      "serial_number" : "VMWARE-42 05 F3 EB 61 BC C8 69-0B 5B 69 8F 39 4A F1 5A",
+      "root_class" : "nt",
+      "memory_size" : 20480
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "4c6b7bb9f7dcec32929c80e647fd3bbb",
+    "globalId" : null,
+    "type" : "unix",
+    "properties" : {
+      "display_label" : "tofas1",
+      "discovered_os_name" : "Red Hat(Linux)",
+      "serial_number" : "VMWARE-42 05 4D B0 CF 13 4F 6D-F8 C4 22 BA C4 82 97 90",
+      "root_class" : "unix",
+      "primary_ip_address" : "192.168.2.76",
+      "memory_size" : 16384
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "40283c4319e3fef9a962263773462b61",
+    "globalId" : null,
+    "type" : "unix",
+    "properties" : {
+      "display_label" : "s001centos78",
+      "discovered_os_name" : "CentOS(Linux)",
+      "serial_number" : "VMWARE-42 2D D8 7F 0B 2E B7 BF-D7 87 39 9A DB 73 5F B6",
+      "root_class" : "unix",
+      "memory_size" : 16384
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "4faa6a22808186b8b6cca469275b5444",
+    "globalId" : null,
+    "type" : "unix",
+    "properties" : {
+      "display_label" : "s001gtlabrunner",
+      "serial_number" : "VMWARE-42 05 19 4F E9 6A 60 FB-3E 3D 34 61 0C 34 A8 25",
+      "root_class" : "unix",
+      "memory_size" : 4096
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "410f473b3aad626dae8b5059c51b0331",
+    "globalId" : null,
+    "type" : "unix",
+    "properties" : {
+      "display_label" : "erdemir-2",
+      "discovered_os_name" : "Red Hat(Linux)",
+      "serial_number" : "VMWARE-42 05 40 45 18 11 3B B9-57 C9 6F 9A 64 CF C1 50",
+      "root_class" : "unix",
+      "primary_ip_address" : "192.168.3.137",
+      "memory_size" : 16384
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "45ae2f5685dd967aa5fbdbe4a3481c1a",
+    "globalId" : null,
+    "type" : "unix",
+    "properties" : {
+      "display_label" : "sn",
+      "discovered_os_name" : "Red Hat(Linux)",
+      "serial_number" : "VMWARE-42 05 01 B9 15 F7 A6 96-D6 B4 5E 50 7F CB B7 1A",
+      "root_class" : "unix",
+      "memory_size" : 16384
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "4bbb6f068dc2985281c4d5be14d51f94",
+    "globalId" : null,
+    "type" : "unix",
+    "properties" : {
+      "display_label" : "influx",
+      "discovered_os_name" : "CentOS(Linux)",
+      "serial_number" : "VMWARE-42 05 65 3A ED C6 F6 9D-9A 43 86 CF 08 1A 00 60",
+      "root_class" : "unix",
+      "memory_size" : 8192
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "4df7982f6f93d35d98d5d176cffc1f5f",
+    "globalId" : null,
+    "type" : "unix",
+    "properties" : {
+      "display_label" : "p2ras",
+      "discovered_os_name" : "Red Hat(Linux)",
+      "serial_number" : "VMWARE-42 05 33 79 FD 66 CE 6D-5D 65 7D FC AE D5 16 A4",
+      "root_class" : "unix",
+      "primary_ip_address" : "192.168.5.200",
+      "memory_size" : 8192
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "4db691ccf72c128eb5e52b6608a139e2",
+    "globalId" : null,
+    "type" : "unix",
+    "properties" : {
+      "display_label" : "gokselroot",
+      "discovered_os_name" : "Red Hat(Linux)",
+      "serial_number" : "VMWARE-42 05 99 65 78 FC DB B9-15 D1 A0 84 DA C2 E5 DE",
+      "root_class" : "unix",
+      "memory_size" : 4096
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "47d520d99b63d5378d3ae128cf6b8038",
+    "globalId" : null,
+    "type" : "unix",
+    "properties" : {
+      "display_label" : "nexus",
+      "discovered_os_name" : "Red Hat(Linux)",
+      "serial_number" : "VMWARE-42 05 91 80 8C 81 93 21-3D 00 39 4D 3C 09 13 F7",
+      "root_class" : "unix",
+      "memory_size" : 8192
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "4a274bb80596dfa7966d529e6a57bb2f",
+    "globalId" : null,
+    "type" : "unix",
+    "properties" : {
+      "display_label" : "s001tstobm2",
+      "discovered_os_name" : "Oracle Linux(Linux)",
+      "serial_number" : "VMWARE-42 05 8F 9B A6 11 47 2B-7A 7D CC F1 7E 64 91 A4",
+      "root_class" : "unix",
+      "primary_ip_address" : "192.168.70.2",
+      "memory_size" : 2048
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "42c77841fd20be27a510c441df73b18a",
+    "globalId" : null,
+    "type" : "unix",
+    "properties" : {
+      "display_label" : "erdemir-3",
+      "discovered_os_name" : "Red Hat(Linux)",
+      "serial_number" : "VMWARE-42 05 46 7E 86 43 F8 5C-DB 9C D8 50 EA 4A 92 89",
+      "root_class" : "unix",
+      "primary_ip_address" : "192.168.3.138",
+      "memory_size" : 16384
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "432cd22057c8451e94dd4a99fcdef36d",
+    "globalId" : null,
+    "type" : "unix",
+    "properties" : {
+      "display_label" : "atower",
+      "serial_number" : "VMWARE-42 0D E0 18 40 59 99 CB-5D 40 3D D0 3C 6E 27 04",
+      "root_class" : "unix",
+      "memory_size" : 16384
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "4e736b227c538861811e884944004e1b",
+    "globalId" : null,
+    "type" : "unix",
+    "properties" : {
+      "display_label" : "manageiq-morphy",
+      "discovered_os_name" : "CentOS(Linux)",
+      "serial_number" : "VMWARE-42 05 3D 3C 35 82 45 A7-B9 09 94 70 0D F0 9E F8",
+      "root_class" : "unix",
+      "primary_ip_address" : "192.168.2.255",
+      "memory_size" : 16384
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "4e7d742f8f7405b9927b93cf9e230932",
+    "globalId" : null,
+    "type" : "unix",
+    "properties" : {
+      "display_label" : "s001optic02",
+      "discovered_os_name" : "Oracle Linux(Linux)",
+      "serial_number" : "VMWARE-42 05 D0 8A 96 40 69 5F-8E 6C DF F7 C2 0A C6 FC",
+      "root_class" : "unix",
+      "primary_ip_address" : "192.168.1.114",
+      "memory_size" : 40960
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "443661b5568944faaaa3d1acd43ad68a",
+    "globalId" : null,
+    "type" : "unix",
+    "properties" : {
+      "display_label" : "dr-qcsd9-worker-0-kvrlx",
+      "discovered_os_name" : "Red Hat(Linux)",
+      "serial_number" : "VMWARE-42 05 D1 FA 00 F0 E7 92-5E 71 AD 8E 74 83 5A 05",
+      "root_class" : "unix",
+      "primary_ip_address" : "10.131.0.2",
+      "memory_size" : 16384
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "4edff8c5088b8d79862fc7c6fdc88f9b",
+    "globalId" : null,
+    "type" : "unix",
+    "properties" : {
+      "display_label" : "csr1000v",
+      "discovered_os_name" : "Linux",
+      "serial_number" : "VMWARE-42 05 88 33 E3 CE 66 28-76 5A BA 55 3C 4B D4 DA",
+      "root_class" : "unix",
+      "primary_ip_address" : "192.168.1.248",
+      "memory_size" : 4096
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "42ec03a797ce63ffbab477affee656d3",
+    "globalId" : null,
+    "type" : "unix",
+    "properties" : {
+      "display_label" : "gokselroot",
+      "discovered_os_name" : "Red Hat(Linux)",
+      "serial_number" : "VMWARE-42 05 87 BC 13 39 9E DE-77 42 F0 E0 FE F1 F9 2D",
+      "root_class" : "unix",
+      "primary_ip_address" : "192.168.0.9",
+      "memory_size" : 4096
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "4e35cfe6c3bef280ae264eda0adbca9d",
+    "globalId" : null,
+    "type" : "unix",
+    "properties" : {
+      "display_label" : "localhost.localdomain",
+      "discovered_os_name" : "Oracle Linux(Linux)",
+      "serial_number" : "VMWARE-42 05 CC 8E 00 70 35 1B-28 6B 3A E2 28 8B 09 5F",
+      "root_class" : "unix",
+      "memory_size" : 4096
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "47c4835230c04985ac9495e8b12f71dd",
+    "globalId" : null,
+    "type" : "unix",
+    "properties" : {
+      "display_label" : "s001bantas",
+      "discovered_os_name" : "Oracle Linux(Linux)",
+      "serial_number" : "VMWARE-42 05 7E 3D 74 63 56 7B-15 17 70 C3 A9 BB C8 92",
+      "root_class" : "unix",
+      "primary_ip_address" : "192.168.1.190",
+      "memory_size" : 4096
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "4aacb15f15acca58ac218e1390790a2b",
+    "globalId" : null,
+    "type" : "unix",
+    "properties" : {
+      "display_label" : "hakki-rhel9",
+      "discovered_os_name" : "Red Hat(Linux)",
+      "serial_number" : "VMWARE-42 05 23 26 93 AB 06 AD-99 0B C1 20 12 70 96 A7",
+      "root_class" : "unix",
+      "primary_ip_address" : "192.168.3.242",
+      "memory_size" : 4096
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "47f8c5a93caf30c1a97401c48870668e",
+    "globalId" : null,
+    "type" : "unix",
+    "properties" : {
+      "display_label" : "dr-qcsd9-master-1",
+      "discovered_os_name" : "Red Hat(Linux)",
+      "serial_number" : "VMWARE-42 05 93 49 02 7A 66 C1-C4 10 26 1B 28 F5 2A 28",
+      "root_class" : "unix",
+      "primary_ip_address" : "10.128.0.2",
+      "memory_size" : 16384
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "4a4abbd95eefbada99859e3b8c72ec1f",
+    "globalId" : null,
+    "type" : "unix",
+    "properties" : {
+      "display_label" : "ubuntu-server",
+      "serial_number" : "VMWARE-42 05 A4 B9 1F 0F FE DF-E0 E9 1E 2C 3F 3B 36 9D",
+      "root_class" : "unix",
+      "memory_size" : 8192
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "4839f56acd1a22ba9e6d2d429189c822",
+    "globalId" : null,
+    "type" : "unix",
+    "properties" : {
+      "display_label" : "bastion",
+      "discovered_os_name" : "Red Hat(Linux)",
+      "serial_number" : "VMWARE-42 0D 4B B6 02 AF D2 56-91 68 34 5F 09 7F 16 65",
+      "root_class" : "unix",
+      "primary_ip_address" : "192.168.3.153",
+      "memory_size" : 8192
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "424cd682988641c08bcbb5e24f47de9e",
+    "globalId" : null,
+    "type" : "unix",
+    "properties" : {
+      "display_label" : "rhel8template",
+      "discovered_os_name" : "Red Hat(Linux)",
+      "serial_number" : "VMWARE-42 05 E5 0F 2C D4 E1 8A-75 56 EA AD C8 BB 3E FB",
+      "root_class" : "unix",
+      "memory_size" : 2048
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "4a9ee1d54feba00d8da9841bf413f576",
+    "globalId" : null,
+    "type" : "unix",
+    "properties" : {
+      "display_label" : "drastest",
+      "discovered_os_name" : "Red Hat(Linux)",
+      "serial_number" : "VMWARE-42 05 36 87 72 AC 6D 91-16 62 48 E2 5D 46 38 6F",
+      "root_class" : "unix",
+      "primary_ip_address" : "192.168.3.253",
+      "memory_size" : 8192
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "4b6cc1c5c718e05a88337625c46f47e9",
+    "globalId" : null,
+    "type" : "unix",
+    "properties" : {
+      "display_label" : "rhel8template",
+      "discovered_os_name" : "Red Hat(Linux)",
+      "serial_number" : "VMWARE-42 05 4E 2D C1 4F AC 79-AC 21 B8 8E F3 56 71 A1",
+      "root_class" : "unix",
+      "memory_size" : 16384
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "40808b797b0ed345b5be769ee13d2bd3",
+    "globalId" : null,
+    "type" : "unix",
+    "properties" : {
+      "display_label" : "vm1",
+      "discovered_os_name" : "Red Hat(Linux)",
+      "serial_number" : "VMWARE-42 05 55 E1 CB 03 58 E3-A5 4F 63 17 3C 6B AA D9",
+      "root_class" : "unix",
+      "primary_ip_address" : "192.168.90.1",
+      "memory_size" : 2048
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "47a3409ccbc2a0b9ad11e45bba429dc3",
+    "globalId" : null,
+    "type" : "unix",
+    "properties" : {
+      "display_label" : "rear",
+      "discovered_os_name" : "Red Hat(Linux)",
+      "serial_number" : "VMWARE-42 05 47 17 A2 C2 85 79-F4 86 1B 50 03 7F 3B A7",
+      "root_class" : "unix",
+      "memory_size" : 2048
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "4577f0ecb554cdc1938e6f3f51bb7c8b",
+    "globalId" : null,
+    "type" : "unix",
+    "properties" : {
+      "display_label" : "kadirhan",
+      "discovered_os_name" : "Red Hat(Linux)",
+      "serial_number" : "VMWARE-42 05 C5 1F D9 DA E5 FB-A3 E9 BD E1 64 46 03 05",
+      "root_class" : "unix",
+      "primary_ip_address" : "192.168.2.66",
+      "memory_size" : 4096
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "49e80f5b96e7d5c7bc8671cce7ae7de5",
+    "globalId" : null,
+    "type" : "unix",
+    "properties" : {
+      "display_label" : "vm2",
+      "discovered_os_name" : "Red Hat(Linux)",
+      "serial_number" : "VMWARE-42 05 40 EB 41 23 D5 DB-1C 91 98 C6 97 09 9B DE",
+      "root_class" : "unix",
+      "primary_ip_address" : "192.168.90.3",
+      "memory_size" : 2048
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "4aff2712faca716f8a5244d3cd70892a",
+    "globalId" : null,
+    "type" : "unix",
+    "properties" : {
+      "display_label" : "gokselreplica",
+      "discovered_os_name" : "Red Hat(Linux)",
+      "serial_number" : "VMWARE-42 05 5A D0 D3 5C FE 45-FD 24 D6 CD 2F 41 61 0C",
+      "root_class" : "unix",
+      "primary_ip_address" : "192.168.1.27",
+      "memory_size" : 16384
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "435e3a0e33ef61cbb055505264d4a533",
+    "globalId" : null,
+    "type" : "unix",
+    "properties" : {
+      "display_label" : "ansible-hub",
+      "discovered_os_name" : "Red Hat(Linux)",
+      "serial_number" : "VMWARE-42 05 86 F5 7F DB EE 4F-E1 F6 7A D0 17 FF 7E C2",
+      "root_class" : "unix",
+      "primary_ip_address" : "192.168.3.240",
+      "memory_size" : 16384
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "40e963fa9781d9b09082b552145f4c3a",
+    "globalId" : null,
+    "type" : "unix",
+    "properties" : {
+      "display_label" : "dr-qcsd9-worker-0-9ncwj",
+      "discovered_os_name" : "Red Hat(Linux)",
+      "serial_number" : "VMWARE-42 05 35 75 31 55 3F 45-0E 81 7F 42 4F AC 83 DD",
+      "root_class" : "unix",
+      "primary_ip_address" : "10.128.2.2",
+      "memory_size" : 16384
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "4f6b3fee25c5f837926cedf7d5a103d5",
+    "globalId" : null,
+    "type" : "unix",
+    "properties" : {
+      "display_label" : "master-2",
+      "discovered_os_name" : "Red Hat(Linux)",
+      "serial_number" : "VMWARE-42 05 28 69 9D 0D 96 AF-A6 95 B7 AB 9A 4F 14 D8",
+      "root_class" : "unix",
+      "primary_ip_address" : "10.130.0.2",
+      "memory_size" : 24576
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "400ca88d986a9817a897a165fc8ea719",
+    "globalId" : null,
+    "type" : "unix",
+    "properties" : {
+      "display_label" : "indeni",
+      "discovered_os_name" : "Oracle Linux(Linux)",
+      "serial_number" : "VMWARE-42 05 22 A1 71 74 DE BB-24 6E 96 37 B7 22 C9 6C",
+      "root_class" : "unix",
+      "primary_ip_address" : "192.168.1.119",
+      "memory_size" : 4096
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "45a3346511c7ff39b7f265543e67c760",
+    "globalId" : null,
+    "type" : "unix",
+    "properties" : {
+      "display_label" : "odeo-sat",
+      "discovered_os_name" : "Red Hat(Linux)",
+      "serial_number" : "VMWARE-42 05 9F 57 C2 B1 6C CD-6D 20 F3 71 C5 87 0E D2",
+      "root_class" : "unix",
+      "primary_ip_address" : "192.168.50.99",
+      "memory_size" : 32768
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "40d08581da1210f783cbfb8cd9f2d69a",
+    "globalId" : null,
+    "type" : "unix",
+    "properties" : {
+      "display_label" : "oracletest",
+      "serial_number" : "VMWARE-42 05 9F 12 D6 AD C4 BF-43 78 A4 5E B4 2D AA 39",
+      "root_class" : "unix",
+      "memory_size" : 8192
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "415e6ae6c90c27d48c45c6c73cb8ffc4",
+    "globalId" : null,
+    "type" : "unix",
+    "properties" : {
+      "display_label" : "pfsense",
+      "discovered_os_name" : "Linux",
+      "serial_number" : "VMWARE-42 05 7D 92 41 12 1F CF-6C 18 B9 02 92 B6 60 DF",
+      "root_class" : "unix",
+      "primary_ip_address" : "192.168.0.2",
+      "memory_size" : 16384
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "4b9066a7166f53f6beb7ceefda86bcee",
+    "globalId" : null,
+    "type" : "unix",
+    "properties" : {
+      "display_label" : "s001gitlab2",
+      "serial_number" : "VMWARE-42 05 F9 C4 22 32 03 AC-CE E1 3E 39 AD DC 3D 87",
+      "root_class" : "unix",
+      "memory_size" : 8192
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "457591a782d00de098e4264dd3d9b233",
+    "globalId" : null,
+    "type" : "unix",
+    "properties" : {
+      "display_label" : "s001vcsa1",
+      "discovered_os_name" : "VMware Photon(Linux)",
+      "serial_number" : "VMWARE-56 4D 91 FD 0D 0E E3 DD-A6 23 B4 A2 71 64 FF F5",
+      "root_class" : "unix",
+      "primary_ip_address" : "192.168.1.3",
+      "memory_size" : 24576
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "41608e85d01897a7a9b1b7be3997c560",
+    "globalId" : null,
+    "type" : "unix",
+    "properties" : {
+      "display_label" : "idmreplica1",
+      "serial_number" : "VMWARE-42 2D 43 E9 8B 0A 87 3D-3E 16 5E 96 4E D3 DE 0E",
+      "root_class" : "unix",
+      "memory_size" : 8192
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "483420b4aa2a8ff2876ef41a66de1e54",
+    "globalId" : null,
+    "type" : "unix",
+    "properties" : {
+      "display_label" : "infra-1",
+      "discovered_os_name" : "Red Hat(Linux)",
+      "serial_number" : "VMWARE-42 05 76 F0 5B 16 2B AC-8F E0 5E 7A 03 79 96 27",
+      "root_class" : "unix",
+      "primary_ip_address" : "192.168.70.50",
+      "memory_size" : 16384
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "465594b9a00861b088e9f529e300f739",
+    "globalId" : null,
+    "type" : "unix",
+    "properties" : {
+      "display_label" : "s001elk2",
+      "discovered_os_name" : "Oracle Linux(Linux)",
+      "serial_number" : "VMWARE-42 05 AE CE 9E 27 0C 83-86 66 8A 83 56 BA 70 6B",
+      "root_class" : "unix",
+      "primary_ip_address" : "192.168.51.2",
+      "memory_size" : 10240
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "4dfcd71953924c02ba79bb43b5ad934d",
+    "globalId" : null,
+    "type" : "unix",
+    "properties" : {
+      "display_label" : "master-3",
+      "discovered_os_name" : "Red Hat(Linux)",
+      "serial_number" : "VMWARE-42 05 BE DC ED 3F 35 E8-03 50 B8 95 BB 48 BF E7",
+      "root_class" : "unix",
+      "primary_ip_address" : "192.168.3.191",
+      "memory_size" : 33792
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "433c13368e79224396927706a721c631",
+    "globalId" : null,
+    "type" : "unix",
+    "properties" : {
+      "display_label" : "zbxapp2",
+      "discovered_os_name" : "Oracle Linux(Linux)",
+      "serial_number" : "VMWARE-42 05 95 66 B5 59 A6 8B-F5 16 2A F6 19 10 32 4C",
+      "root_class" : "unix",
+      "primary_ip_address" : "192.168.1.83",
+      "memory_size" : 8192
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "41d81e40eb33752a8aa9436052ec4a13",
+    "globalId" : null,
+    "type" : "unix",
+    "properties" : {
+      "display_label" : "drmon",
+      "serial_number" : "VMWARE-42 05 4F B5 40 70 94 D9-99 13 9C 5E ED E1 E3 BC",
+      "root_class" : "unix",
+      "memory_size" : 2048
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "49bc058ecad4f9b8860dce30616db8b6",
+    "globalId" : null,
+    "type" : "unix",
+    "properties" : {
+      "display_label" : "dynatst",
+      "serial_number" : "VMWARE-42 05 CA EE AE AB F9 00-81 01 35 D3 D6 CC 4C 57",
+      "root_class" : "unix",
+      "memory_size" : 8192
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "483b179ed3abd4b1addde1025cdfc807",
+    "globalId" : null,
+    "type" : "unix",
+    "properties" : {
+      "display_label" : "postgresql020",
+      "discovered_os_name" : "Red Hat(Linux)",
+      "serial_number" : "VMWARE-42 05 0A C9 37 1D F7 39-AD 7F E5 0F 6F 97 66 FC",
+      "root_class" : "unix",
+      "primary_ip_address" : "192.168.99.14",
+      "memory_size" : 4096
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "4e44c7a9b2e157f9928d16041ea80a6e",
+    "globalId" : null,
+    "type" : "unix",
+    "properties" : {
+      "display_label" : "webinar",
+      "discovered_os_name" : "Red Hat(Linux)",
+      "serial_number" : "VMWARE-42 05 AB 16 73 29 3D A1-95 DB 5F A2 18 19 C5 CA",
+      "root_class" : "unix",
+      "memory_size" : 16384
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "47d346d4580fecf4bcd895b45927510c",
+    "globalId" : null,
+    "type" : "unix",
+    "properties" : {
+      "display_label" : "dr-qcsd9-worker-0-fj7d4",
+      "discovered_os_name" : "Red Hat(Linux)",
+      "serial_number" : "VMWARE-42 05 D4 50 CC 45 43 8E-F7 BD 91 81 7E F0 94 7B",
+      "root_class" : "unix",
+      "primary_ip_address" : "10.129.2.2",
+      "memory_size" : 16384
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "400b1179c203cdebafd13eea66bd9bdd",
+    "globalId" : null,
+    "type" : "unix",
+    "properties" : {
+      "display_label" : "idmdns",
+      "serial_number" : "VMWARE-42 05 DB B7 23 1B 08 62-08 3E 53 94 D4 19 85 FE",
+      "root_class" : "unix",
+      "memory_size" : 8192
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "493260c68477b2cfa830cfd3cd4e9923",
+    "globalId" : null,
+    "type" : "unix",
+    "properties" : {
+      "display_label" : "ansible-db",
+      "discovered_os_name" : "Red Hat(Linux)",
+      "serial_number" : "VMWARE-42 05 2C BC 0B 71 93 3F-3D 9C BE A1 10 FC 2F EA",
+      "root_class" : "unix",
+      "primary_ip_address" : "192.168.3.241",
+      "memory_size" : 8192
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "446ce16f119fb083bd8e066d891cbc23",
+    "globalId" : null,
+    "type" : "unix",
+    "properties" : {
+      "display_label" : "test-ubuntuserver",
+      "serial_number" : "VMWARE-42 05 DC F1 3B 81 98 16-EB 29 94 0D F5 7B 68 C0",
+      "root_class" : "unix",
+      "memory_size" : 8192
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "4de48c4cbc0c69649cea724056481ce4",
+    "globalId" : null,
+    "type" : "unix",
+    "properties" : {
+      "display_label" : "worker-vm-2",
+      "discovered_os_name" : "Red Hat(Linux)",
+      "serial_number" : "VMWARE-42 05 3E 98 FA CB DB F1-22 D4 3E 3C 70 BB DD 3D",
+      "root_class" : "unix",
+      "primary_ip_address" : "192.168.3.194",
+      "memory_size" : 65536
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "45093e14d958891485c7bb301173f213",
+    "globalId" : null,
+    "type" : "unix",
+    "properties" : {
+      "display_label" : "konsno",
+      "discovered_os_name" : "Red Hat(Linux)",
+      "serial_number" : "VMWARE-42 05 0E F1 56 D2 70 C6-3F DC 95 CB 10 EA 7A D0",
+      "root_class" : "unix",
+      "primary_ip_address" : "192.168.77.76",
+      "memory_size" : 65536
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "4a18ee6f21946c339034f1e60803c4ca",
+    "globalId" : null,
+    "type" : "unix",
+    "properties" : {
+      "display_label" : "signozapp",
+      "discovered_os_name" : "Ubuntu(Linux)",
+      "serial_number" : "VMWARE-42 05 CA B0 EC 28 9E 76-21 09 27 42 6D 26 32 89",
+      "root_class" : "unix",
+      "primary_ip_address" : "192.168.3.149",
+      "memory_size" : 8192
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "4a581779f949de299e745dad871e8248",
+    "globalId" : null,
+    "type" : "unix",
+    "properties" : {
+      "display_label" : "testsrm",
+      "discovered_os_name" : "Linux",
+      "serial_number" : "VMWARE-42 05 E9 E6 8E 93 30 F6-5A 7B 96 EE F7 26 28 54",
+      "root_class" : "unix",
+      "memory_size" : 12288
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "425d8809ac1dab69be1b739aa9c6adba",
+    "globalId" : null,
+    "type" : "unix",
+    "properties" : {
+      "display_label" : "aautomation",
+      "serial_number" : "VMWARE-42 05 EF 39 C5 14 71 5A-6C FB 0A 66 AF 0B E5 5D",
+      "root_class" : "unix",
+      "memory_size" : 24576
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "483c9a7823722ce6a0b6c5073104cb85",
+    "globalId" : null,
+    "type" : "unix",
+    "properties" : {
+      "display_label" : "ubuntu-hakki",
+      "discovered_os_name" : "Ubuntu(Linux)",
+      "serial_number" : "VMWARE-42 05 03 BA 56 07 5B C1-81 41 4D CF F2 0F 22 A1",
+      "root_class" : "unix",
+      "memory_size" : 8192
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "417c451ba8cc932b88ae252cf10141e3",
+    "globalId" : null,
+    "type" : "unix",
+    "properties" : {
+      "display_label" : "localhost-localdomaine",
+      "serial_number" : "VMWARE-42 05 22 53 1B 58 FC 39-92 24 F6 F2 71 49 E0 5D",
+      "root_class" : "unix",
+      "memory_size" : 16384
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "4ea6e516a022974cbabb6fbb6168ce5e",
+    "globalId" : null,
+    "type" : "unix",
+    "properties" : {
+      "display_label" : "dr-qcsd9-master-2",
+      "discovered_os_name" : "Red Hat(Linux)",
+      "serial_number" : "VMWARE-42 05 F6 E7 55 6B 31 29-61 C9 72 5B 3B 8F 01 3E",
+      "root_class" : "unix",
+      "primary_ip_address" : "10.130.0.2",
+      "memory_size" : 16384
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "485cc0a4e0b5ee378330ff5528f2f007",
+    "globalId" : null,
+    "type" : "unix",
+    "properties" : {
+      "display_label" : "gokselroot",
+      "discovered_os_name" : "Red Hat(Linux)",
+      "serial_number" : "VMWARE-42 05 50 42 B1 2D AB 74-D8 4E 21 2D EC E9 14 76",
+      "root_class" : "unix",
+      "memory_size" : 4096
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "44904d7c6a5dbcbaa90acdeec6b9e9bd",
+    "globalId" : null,
+    "type" : "unix",
+    "properties" : {
+      "display_label" : "s001gitlab1",
+      "discovered_os_name" : "Ubuntu(Linux)",
+      "serial_number" : "VMWARE-42 05 F4 DA E7 BB A8 4B-50 13 AE CB 97 9A F6 7F",
+      "root_class" : "unix",
+      "primary_ip_address" : "192.168.75.75",
+      "memory_size" : 6144
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "4a04afa08f6bc2ee8d8932f2c2b6c501",
+    "globalId" : null,
+    "type" : "unix",
+    "properties" : {
+      "display_label" : "worker-vm-1",
+      "discovered_os_name" : "Red Hat(Linux)",
+      "serial_number" : "VMWARE-42 05 7A 21 F3 8D 43 86-4C E4 C8 D8 C9 B2 8F 27",
+      "root_class" : "unix",
+      "primary_ip_address" : "192.168.3.192",
+      "memory_size" : 65536
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "49a9ef8bcc1f9430840081151e145bfd",
+    "globalId" : null,
+    "type" : "unix",
+    "properties" : {
+      "display_label" : "localhost.localdomain",
+      "serial_number" : "VMWARE-42 05 4A 59 AD BF C1 21-8F F3 38 A5 B2 76 09 2D",
+      "root_class" : "unix",
+      "memory_size" : 16384
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "4de771f0c8c576c2884c9ce9178b5dcc",
+    "globalId" : null,
+    "type" : "unix",
+    "properties" : {
+      "display_label" : "vm-1",
+      "discovered_model" : "Virtual Machine",
+      "discovered_os_name" : "Oracle Linux(Linux)",
+      "serial_number" : "6337-3895-3971-0652-7315-3771-16",
+      "root_class" : "unix",
+      "memory_size" : 2048
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "4cd3cdc7f923a0268f531729f14443dc",
+    "globalId" : null,
+    "type" : "unix",
+    "properties" : {
+      "display_label" : "localhost.localdomain",
+      "discovered_os_name" : "Red Hat(Linux)",
+      "serial_number" : "VMWARE-42 05 0D A4 27 7E 1A 4E-D8 30 96 EA 59 7E 50 3A",
+      "root_class" : "unix",
+      "memory_size" : 16384
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "489275484360b7d883f4a40f71931ff2",
+    "globalId" : null,
+    "type" : "unix",
+    "properties" : {
+      "display_label" : "bastion",
+      "discovered_os_name" : "Red Hat(Linux)",
+      "serial_number" : "VMWARE-42 05 62 46 7B 16 EF A9-86 4C 1C C9 14 DA A0 84",
+      "root_class" : "unix",
+      "memory_size" : 16384
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "456c9fcfde8f4f8bbea481989fd059b2",
+    "globalId" : null,
+    "type" : "unix",
+    "properties" : {
+      "display_label" : "rhel8template",
+      "discovered_os_name" : "Red Hat(Linux)",
+      "serial_number" : "VMWARE-42 05 32 92 C2 7E 12 09-29 61 46 02 CF 7E FA DF",
+      "root_class" : "unix",
+      "memory_size" : 2048
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "4c454638b63945638a9beb4d0cf17300",
+    "globalId" : null,
+    "type" : "unix",
+    "properties" : {
+      "display_label" : "ansible-worker",
+      "discovered_os_name" : "Red Hat(Linux)",
+      "serial_number" : "VMWARE-42 05 7B BF D5 51 E8 33-D5 89 38 F1 6C A7 07 C8",
+      "root_class" : "unix",
+      "primary_ip_address" : "192.168.80.80",
+      "memory_size" : 16384
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "4fceb59d63e03b569ca115b3a37a7b8e",
+    "globalId" : null,
+    "type" : "unix",
+    "properties" : {
+      "display_label" : "master-3",
+      "discovered_os_name" : "Red Hat(Linux)",
+      "serial_number" : "VMWARE-42 05 6E 55 4F E9 15 13-4F 2A 80 A2 AF 39 00 AD",
+      "root_class" : "unix",
+      "primary_ip_address" : "10.129.0.2",
+      "memory_size" : 24576
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "43b9e6cee384bac288a3f679eae6d30a",
+    "globalId" : null,
+    "type" : "unix",
+    "properties" : {
+      "display_label" : "bastion",
+      "discovered_os_name" : "Red Hat(Linux)",
+      "serial_number" : "VMWARE-42 2D DF 91 F7 D2 A2 22-77 D7 A5 00 26 6D 8D A7",
+      "root_class" : "unix",
+      "memory_size" : 8192
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "413ef803a915882faacca32da5094de7",
+    "globalId" : null,
+    "type" : "unix",
+    "properties" : {
+      "display_label" : "erdemir-1",
+      "discovered_os_name" : "Red Hat(Linux)",
+      "serial_number" : "VMWARE-42 05 01 C4 85 6D DC FB-9D 47 B1 EF 07 7A 80 46",
+      "root_class" : "unix",
+      "primary_ip_address" : "192.168.3.136",
+      "memory_size" : 16384
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "46557b40ef02799b82706ab7e0331677",
+    "globalId" : null,
+    "type" : "unix",
+    "properties" : {
+      "display_label" : "manageiq",
+      "discovered_os_name" : "Red Hat(Linux)",
+      "serial_number" : "VMWARE-42 05 83 0A 49 E0 BB 67-0A FD DC FD EF EF 51 47",
+      "root_class" : "unix",
+      "primary_ip_address" : "192.168.2.33",
+      "memory_size" : 32768
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "47966b993cd028cb9e87fb86dfd99bc3",
+    "globalId" : null,
+    "type" : "unix",
+    "properties" : {
+      "display_label" : "konsalt-rhel7-template",
+      "discovered_os_name" : "Red Hat(Linux)",
+      "serial_number" : "VMWARE-42 05 1B 3A 11 75 17 FD-87 89 06 57 DC CA DF 8B",
+      "root_class" : "unix",
+      "memory_size" : 2048
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "43f32abb31bd40f4a3b8e5932b75524f",
+    "globalId" : null,
+    "type" : "unix",
+    "properties" : {
+      "display_label" : "zbxdb",
+      "discovered_os_name" : "Oracle Linux(Linux)",
+      "serial_number" : "VMWARE-42 05 BD 21 56 C4 19 74-07 EA 43 98 AB 71 C8 13",
+      "root_class" : "unix",
+      "primary_ip_address" : "192.168.1.82",
+      "memory_size" : 8192
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "48b47450b98d3d8cb5ffaa389856fe60",
+    "globalId" : null,
+    "type" : "unix",
+    "properties" : {
+      "display_label" : "master-1",
+      "discovered_os_name" : "Red Hat(Linux)",
+      "serial_number" : "VMWARE-42 05 16 47 0E 7F 83 66-64 EB 4E 23 D9 50 2B E5",
+      "root_class" : "unix",
+      "primary_ip_address" : "192.168.3.189",
+      "memory_size" : 33792
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "48f5dafaf94c1ede8f83a98509b1b331",
+    "globalId" : null,
+    "type" : "unix",
+    "properties" : {
+      "display_label" : "zbxtest3",
+      "discovered_os_name" : "Oracle Linux(Linux)",
+      "serial_number" : "VMWARE-56 4D CC 04 73 06 B1 5D-96 18 FC 8B 79 A0 03 6E",
+      "root_class" : "unix",
+      "primary_ip_address" : "192.168.1.137",
+      "memory_size" : 4096
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "4fca48ce279e163e9670bfd481344f2b",
+    "globalId" : null,
+    "type" : "unix",
+    "properties" : {
+      "display_label" : "ansibleap",
+      "serial_number" : "VMWARE-42 05 AF 09 C0 DA 4E 5A-AB ED 68 AB 5E 56 FC 33",
+      "root_class" : "unix",
+      "memory_size" : 24576
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "45bb236142b4a75f818df7ec7fdf37af",
+    "globalId" : null,
+    "type" : "unix",
+    "properties" : {
+      "display_label" : "master-2",
+      "discovered_os_name" : "Red Hat(Linux)",
+      "serial_number" : "VMWARE-42 05 66 C5 A7 44 A3 CA-A6 71 E7 97 31 BB A1 1C",
+      "root_class" : "unix",
+      "primary_ip_address" : "192.168.3.190",
+      "memory_size" : 33792
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "4a7b6583e24164829016245dffeaabbb",
+    "globalId" : null,
+    "type" : "unix",
+    "properties" : {
+      "display_label" : "idm",
+      "discovered_os_name" : "Red Hat(Linux)",
+      "serial_number" : "VMWARE-42 05 88 AF 08 31 B9 A4-B8 87 F3 02 F9 3E A3 14",
+      "root_class" : "unix",
+      "memory_size" : 24576
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "49eedba54cd5ad068c99886bec094a45",
+    "globalId" : null,
+    "type" : "unix",
+    "properties" : {
+      "display_label" : "rhelprod",
+      "serial_number" : "VMWARE-42 2D 42 58 6C 0F 25 C2-01 40 B2 73 12 D8 C3 2A",
+      "root_class" : "unix",
+      "memory_size" : 3072
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "4daf0e26c426fff3938696afe9da6d88",
+    "globalId" : null,
+    "type" : "unix",
+    "properties" : {
+      "display_label" : "tofas2",
+      "discovered_os_name" : "Red Hat(Linux)",
+      "serial_number" : "VMWARE-42 05 ED B6 97 22 7A B1-40 D0 00 46 3D 04 66 F8",
+      "root_class" : "unix",
+      "primary_ip_address" : "192.168.2.75",
+      "memory_size" : 16384
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "48d42993af02ccdb92213350a9137dd5",
+    "globalId" : null,
+    "type" : "unix",
+    "properties" : {
+      "display_label" : "rhel8",
+      "serial_number" : "VMWARE-42 2D D2 CC 34 EE F7 A5-DE 40 5C 3D 6D 22 B7 6E",
+      "root_class" : "unix",
+      "memory_size" : 8192
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "42496501be0e8a1a95a93661c191d02e",
+    "globalId" : null,
+    "type" : "unix",
+    "properties" : {
+      "display_label" : "s001sa01",
+      "discovered_os_name" : "Red Hat(Linux)",
+      "serial_number" : "VMWARE-42 05 72 BB 91 E1 1D 29-FA 9A 03 E3 85 D5 D6 BF",
+      "root_class" : "unix",
+      "primary_ip_address" : "192.168.1.129",
+      "memory_size" : 16384
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "4ec2a7c2f0ebc82a82ccefb3b8a6c335",
+    "globalId" : null,
+    "type" : "unix",
+    "properties" : {
+      "display_label" : "zbxodea2",
+      "discovered_os_name" : "Oracle Linux(Linux)",
+      "serial_number" : "VMWARE-56 4D 4D D2 94 49 BB 52-53 BA 06 D4 A0 C7 D1 CC",
+      "root_class" : "unix",
+      "primary_ip_address" : "192.168.1.135",
+      "memory_size" : 4096
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "47e8f3ee72ab4902b9feaddd09afe114",
+    "globalId" : null,
+    "type" : "unix",
+    "properties" : {
+      "display_label" : "hakki-rhel8",
+      "discovered_os_name" : "Red Hat(Linux)",
+      "serial_number" : "VMWARE-42 05 0B D4 DD 7C 10 32-54 BE 51 0E 2F 5D D5 3F",
+      "root_class" : "unix",
+      "primary_ip_address" : "192.168.73.1",
+      "memory_size" : 2048
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "45294e32f76576e0a419d498f678a75a",
+    "globalId" : null,
+    "type" : "unix",
+    "properties" : {
+      "display_label" : "s001opsbconnector1",
+      "serial_number" : "VMWARE-42 05 2F 41 79 DE 47 85-96 D8 09 02 98 51 FB E1",
+      "root_class" : "unix",
+      "memory_size" : 16384
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "4ce4387e802ddd09bd510807ab8eb627",
+    "globalId" : null,
+    "type" : "unix",
+    "properties" : {
+      "display_label" : "rheldev",
+      "serial_number" : "VMWARE-56 4D 77 9A 34 6A 2F 7D-22 41 FC 2C 7A 5B C9 42",
+      "root_class" : "unix",
+      "memory_size" : 16384
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "4c56b700493e7fd9b684b2624d42175f",
+    "globalId" : null,
+    "type" : "unix",
+    "properties" : {
+      "display_label" : "bastionserver001",
+      "discovered_os_name" : "Red Hat(Linux)",
+      "serial_number" : "VMWARE-42 05 CF FE 01 EB 08 9C-17 0A B2 8E 55 A7 2E 81",
+      "root_class" : "unix",
+      "primary_ip_address" : "192.168.2.81",
+      "memory_size" : 8192
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "43695ccc1eaa1aa8adc0d6de4ed07324",
+    "globalId" : null,
+    "type" : "unix",
+    "properties" : {
+      "display_label" : "zbxkoctas2",
+      "serial_number" : "VMWARE-42 05 BA 41 D7 BD 83 72-B4 A9 77 E0 00 F1 57 07",
+      "root_class" : "unix",
+      "memory_size" : 4096
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "41138bfb15cd5d89b6574ff624338e61",
+    "globalId" : null,
+    "type" : "unix",
+    "properties" : {
+      "display_label" : "s001ora1",
+      "discovered_os_name" : "CentOS(Linux)",
+      "serial_number" : "VMWARE-42 2D 90 41 64 0C 22 3E-42 DE 49 48 44 73 B5 88",
+      "root_class" : "unix",
+      "memory_size" : 65536
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "48101de62576b9d8a03a2b85033fa2ba",
+    "globalId" : null,
+    "type" : "unix",
+    "properties" : {
+      "display_label" : "gokselroot",
+      "discovered_os_name" : "Red Hat(Linux)",
+      "serial_number" : "VMWARE-42 05 C5 E7 52 35 74 61-4C 39 8B 4D 41 AB 54 14",
+      "root_class" : "unix",
+      "memory_size" : 4096
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "48ad08e25e554a92b08a32efc31f7e91",
+    "globalId" : null,
+    "type" : "unix",
+    "properties" : {
+      "display_label" : "rhelprod2",
+      "serial_number" : "VMWARE-42 2D 53 B3 3C E3 92 70-28 8D FF 95 08 7B B3 CF",
+      "root_class" : "unix",
+      "memory_size" : 2048
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "497e36efe9795b5888d12e3ee27e7647",
+    "globalId" : null,
+    "type" : "unix",
+    "properties" : {
+      "display_label" : "satellite",
+      "discovered_os_name" : "Red Hat(Linux)",
+      "serial_number" : "VMWARE-42 05 5A 92 8F 16 45 56-FE 6F 8A B7 C4 CD CD 82",
+      "root_class" : "unix",
+      "primary_ip_address" : "192.168.44.54",
+      "memory_size" : 32768
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "4414687a5c127307b1a1841a30ef1548",
+    "globalId" : null,
+    "type" : "unix",
+    "properties" : {
+      "display_label" : "omv1dvpivdb2",
+      "discovered_os_name" : "Red Hat(Linux)",
+      "serial_number" : "VMWARE-42 05 B8 FA 4F CC 60 EF-7C 3C 68 08 A3 61 D8 D7",
+      "root_class" : "unix",
+      "primary_ip_address" : "192.168.2.134",
+      "memory_size" : 4096
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "4d67299471ff6004bf5ae7d07f84af6e",
+    "globalId" : null,
+    "type" : "unix",
+    "properties" : {
+      "display_label" : "s001smax1",
+      "discovered_os_name" : "Oracle Linux(Linux)",
+      "serial_number" : "VMWARE-42 05 26 5F F9 BD 43 AD-AA CF A8 3C 20 4A 0C 10",
+      "root_class" : "unix",
+      "memory_size" : 40960
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "4bffff40e0422b33b10d2dad537d4779",
+    "globalId" : null,
+    "type" : "unix",
+    "properties" : {
+      "display_label" : "zbxkoctas1",
+      "discovered_os_name" : "Oracle Linux(Linux)",
+      "serial_number" : "VMWARE-42 05 53 9C BA 15 F5 7C-EE 33 12 E9 5A 45 C9 8B",
+      "root_class" : "unix",
+      "primary_ip_address" : "192.168.1.135",
+      "memory_size" : 8192
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "486a200a4a148f65b7a8a91153451986",
+    "globalId" : null,
+    "type" : "unix",
+    "properties" : {
+      "display_label" : "satellite",
+      "discovered_os_name" : "Red Hat(Linux)",
+      "serial_number" : "VMWARE-42 05 D6 9B 74 5C 98 29-56 BC BF 9B 17 24 10 01",
+      "root_class" : "unix",
+      "primary_ip_address" : "192.168.2.177",
+      "memory_size" : 32768
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "4426be03d7b9a7219ac3d9d1050b39ca",
+    "globalId" : null,
+    "type" : "unix",
+    "properties" : {
+      "display_label" : "redhatidm",
+      "serial_number" : "VMWARE-42 2D D8 4F BF 76 C8 2B-56 68 9F 66 C8 A5 98 A0",
+      "root_class" : "unix",
+      "memory_size" : 8192
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "4ea432838616f12aac37b939ce223d4f",
+    "globalId" : null,
+    "type" : "unix",
+    "properties" : {
+      "display_label" : "oraclelinux8",
+      "serial_number" : "VMWARE-42 05 4F FA 6C C3 9A 31-04 D1 0B E9 36 60 96 9B",
+      "root_class" : "unix",
+      "memory_size" : 2048
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "4667b47fa13dbed2878c87bcb187073e",
+    "globalId" : null,
+    "type" : "unix",
+    "properties" : {
+      "display_label" : "capsule",
+      "discovered_os_name" : "Red Hat(Linux)",
+      "serial_number" : "VMWARE-42 05 95 F3 FB 52 3D 0C-E8 A9 06 BE 9A A8 1A 86",
+      "root_class" : "unix",
+      "primary_ip_address" : "10.0.20.45",
+      "memory_size" : 16384
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "4b8c14cb6cb0c808b5b707e7ca1624c6",
+    "globalId" : null,
+    "type" : "unix",
+    "properties" : {
+      "display_label" : "worker-vm-3",
+      "discovered_os_name" : "Red Hat(Linux)",
+      "serial_number" : "VMWARE-42 05 1C 03 8C 84 44 3F-69 15 AF 2E E8 50 6E 24",
+      "root_class" : "unix",
+      "primary_ip_address" : "192.168.3.195",
+      "memory_size" : 65536
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "465c546c9565b02b83610aaeea2edf1d",
+    "globalId" : null,
+    "type" : "unix",
+    "properties" : {
+      "display_label" : "vm-2",
+      "discovered_os_name" : "Red Hat(Linux)",
+      "serial_number" : "VMWARE-42 05 BF 22 1D 58 C8 D6-4F 9B 02 D5 94 D8 A9 8F",
+      "root_class" : "unix",
+      "primary_ip_address" : "192.168.34.57",
+      "memory_size" : 16384
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "46eb56554ea6e8d6b2cc0893569e0985",
+    "globalId" : null,
+    "type" : "unix",
+    "properties" : {
+      "display_label" : "prometheus",
+      "serial_number" : "VMWARE-42 05 0C A7 08 19 6A 8D-7F BC 52 16 E3 AC D0 58",
+      "root_class" : "unix",
+      "memory_size" : 4096
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "40de6a9846528578a1b2b7c76b7c01e9",
+    "globalId" : null,
+    "type" : "unix",
+    "properties" : {
+      "display_label" : "localhost.localdomain",
+      "serial_number" : "VMWARE-42 05 9F 1C 88 50 13 69-75 14 CB 8D 0E F1 12 84",
+      "root_class" : "unix",
+      "memory_size" : 32768
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "4f118750c912791eb0a6fd6bb2b4d2b8",
+    "globalId" : null,
+    "type" : "unix",
+    "properties" : {
+      "display_label" : "ansible-worker",
+      "discovered_os_name" : "Red Hat(Linux)",
+      "serial_number" : "VMWARE-42 05 43 41 E2 DF FE B9-78 38 97 CB 54 18 9F 91",
+      "root_class" : "unix",
+      "primary_ip_address" : "192.168.80.80",
+      "memory_size" : 16384
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "4a33cd2a88071b5bba8606aa6f3e50c4",
+    "globalId" : null,
+    "type" : "unix",
+    "properties" : {
+      "display_label" : "worker",
+      "serial_number" : "VMWARE-42 05 76 9E 99 D5 BE 62-61 09 66 AD D7 18 97 A3",
+      "root_class" : "unix",
+      "memory_size" : 16384
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "4a68cc2dec084f05a57c3bef9b1ab552",
+    "globalId" : null,
+    "type" : "unix",
+    "properties" : {
+      "display_label" : "tcmbgwfkm",
+      "discovered_os_name" : "Oracle Linux(Linux)",
+      "serial_number" : "VMWARE-42 05 AB 1C 2D D8 FE B3-FD 39 F2 57 2E 10 07 BF",
+      "root_class" : "unix",
+      "primary_ip_address" : "192.168.1.195",
+      "memory_size" : 4096
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "40c017683070060ba8ef6b74eb63d0bc",
+    "globalId" : null,
+    "type" : "unix",
+    "properties" : {
+      "display_label" : "kubtest",
+      "discovered_os_name" : "Red Hat(Linux)",
+      "serial_number" : "VMWARE-42 05 78 95 23 8B CE A4-5E EE 2F A1 46 5D CF D0",
+      "root_class" : "unix",
+      "memory_size" : 32768
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "463669f3a00fbb2aa9bb97ebe1ad48bf",
+    "globalId" : null,
+    "type" : "unix",
+    "properties" : {
+      "display_label" : "tevfik-voltagesecuredata",
+      "serial_number" : "VMWARE-42 05 E0 0A 40 D8 9A D8-68 8C 90 48 DE FB A4 34",
+      "root_class" : "unix",
+      "memory_size" : 8192
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "43b5de661a31bebe81516741f774259a",
+    "globalId" : null,
+    "type" : "unix",
+    "properties" : {
+      "display_label" : "sahibinden",
+      "discovered_os_name" : "Oracle Linux(Linux)",
+      "serial_number" : "VMWARE-42 05 35 DA A9 76 2F 4F-2E BF 45 DE 0D 81 13 E4",
+      "root_class" : "unix",
+      "primary_ip_address" : "192.168.1.138",
+      "memory_size" : 10240
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "4e8b274370fc09f6b918f2b8204cac8b",
+    "globalId" : null,
+    "type" : "unix",
+    "properties" : {
+      "display_label" : "manageiq",
+      "discovered_os_name" : "Red Hat(Linux)",
+      "serial_number" : "VMWARE-42 05 88 B5 B6 D9 8D 43-F6 45 7C 0E 1D DD 6C 9F",
+      "root_class" : "unix",
+      "memory_size" : 32768
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "464ee3a125c242b6a79dd4953c2a0a1f",
+    "globalId" : null,
+    "type" : "unix",
+    "properties" : {
+      "display_label" : "omv1dvpivdb1",
+      "discovered_os_name" : "Red Hat(Linux)",
+      "serial_number" : "VMWARE-42 05 11 BF 52 AD 5B 89-5E C2 04 C7 45 98 1B EC",
+      "root_class" : "unix",
+      "primary_ip_address" : "192.168.2.161",
+      "memory_size" : 4096
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "4aebb726ddf22239841ae0ac38d70bc9",
+    "globalId" : null,
+    "type" : "unix",
+    "properties" : {
+      "display_label" : "s001optic01",
+      "discovered_os_name" : "Oracle Linux(Linux)",
+      "serial_number" : "VMWARE-56 4D 1E 44 80 25 E8 C0-AF 42 33 6A 45 7E 9D E3",
+      "root_class" : "unix",
+      "primary_ip_address" : "192.168.1.113",
+      "memory_size" : 73728
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "4535afc6d0e5a3dd99c29e751e629fa9",
+    "globalId" : null,
+    "type" : "unix",
+    "properties" : {
+      "display_label" : "automationhub",
+      "serial_number" : "VMWARE-42 05 77 13 DC 8C 02 FC-F5 4F C6 BF A1 78 51 A1",
+      "root_class" : "unix",
+      "memory_size" : 16384
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "4246ea68dc22ee5ca6dc13c8c9652398",
+    "globalId" : null,
+    "type" : "unix",
+    "properties" : {
+      "display_label" : "worker-4",
+      "serial_number" : "VMWARE-42 05 CC 8D 06 EF 8B 38-38 82 B4 94 38 20 34 42",
+      "root_class" : "unix",
+      "memory_size" : 16384
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "45322f6dc091b092a352cecdf7e5899f",
+    "globalId" : null,
+    "type" : "unix",
+    "properties" : {
+      "display_label" : "manageiq-test-012",
+      "serial_number" : "VMWARE-42 05 52 E7 CA 60 42 D9-91 F2 01 00 5C 7D E9 73",
+      "root_class" : "unix",
+      "memory_size" : 2048
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "41e97ed15e778fd9a0b49e024fd33030",
+    "globalId" : null,
+    "type" : "unix",
+    "properties" : {
+      "display_label" : "vm-1",
+      "discovered_os_name" : "Red Hat(Linux)",
+      "serial_number" : "VMWARE-42 05 C6 B5 F1 FF E9 06-D8 D0 85 0A 59 33 10 80",
+      "root_class" : "unix",
+      "primary_ip_address" : "192.168.3.56",
+      "memory_size" : 16384
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "4eea5fc58d9c8f9aae0d3486a4b7ead0",
+    "globalId" : null,
+    "type" : "unix",
+    "properties" : {
+      "display_label" : "appresponse",
+      "discovered_os_name" : "Linux",
+      "serial_number" : "VMWARE-42 05 95 B9 56 C5 EF E5-94 ED 47 27 35 EA 40 1F",
+      "root_class" : "unix",
+      "memory_size" : 12288
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "4e366ea91864b466a1d4390e2a6c5be1",
+    "globalId" : null,
+    "type" : "unix",
+    "properties" : {
+      "display_label" : "omv1dvpivdb3",
+      "discovered_os_name" : "Red Hat(Linux)",
+      "serial_number" : "VMWARE-42 05 71 2D 0A 92 BF 6C-22 D9 28 B6 A7 09 F1 FC",
+      "root_class" : "unix",
+      "primary_ip_address" : "192.168.2.165",
+      "memory_size" : 4096
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "46b0660d231d9a4cbc7a5bca257e78f2",
+    "globalId" : null,
+    "type" : "unix",
+    "properties" : {
+      "display_label" : "master-1",
+      "discovered_os_name" : "Red Hat(Linux)",
+      "serial_number" : "VMWARE-42 05 20 02 ED 8B 52 D8-53 73 E8 4F BB D5 35 B5",
+      "root_class" : "unix",
+      "primary_ip_address" : "10.128.0.2",
+      "memory_size" : 24576
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "4c6359574b18aff5b198789a73250e27",
+    "globalId" : null,
+    "type" : "unix",
+    "properties" : {
+      "display_label" : "s001sa02",
+      "discovered_os_name" : "Red Hat(Linux)",
+      "serial_number" : "VMWARE-42 05 D7 CB 96 84 61 48-22 72 04 68 D4 21 C7 72",
+      "root_class" : "unix",
+      "primary_ip_address" : "192.168.1.130",
+      "memory_size" : 8192
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "4ed18dc4db75ad31a92d2ab6a6308f20",
+    "globalId" : null,
+    "type" : "unix",
+    "properties" : {
+      "display_label" : "s001gitlab-runner1",
+      "discovered_os_name" : "Ubuntu(Linux)",
+      "serial_number" : "VMWARE-42 05 A4 E9 18 4C E7 A7-57 13 3E 61 9C 3D 1F 52",
+      "root_class" : "unix",
+      "primary_ip_address" : "192.168.75.76",
+      "memory_size" : 8192
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "425458f9f8c5e82891eba4e3bf0c6398",
+    "globalId" : null,
+    "type" : "unix",
+    "properties" : {
+      "display_label" : "gokselroot",
+      "discovered_os_name" : "Red Hat(Linux)",
+      "serial_number" : "VMWARE-42 05 6C 0D 09 06 A1 AA-D4 C5 4A 3F CB 48 F3 BD",
+      "root_class" : "unix",
+      "primary_ip_address" : "10.0.30.3",
+      "memory_size" : 4096
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "448737ca8c8a6cc28920bec91946ba4a",
+    "globalId" : null,
+    "type" : "unix",
+    "properties" : {
+      "display_label" : "eve-ng",
+      "discovered_os_name" : "Ubuntu(Linux)",
+      "serial_number" : "VMWARE-42 05 12 E7 EC CE EA 68-AC 28 81 65 8B CD 4C CB",
+      "root_class" : "unix",
+      "primary_ip_address" : "10.0.20.41",
+      "memory_size" : 16384
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "4fdb1f37b04139359c6fc142110bae5c",
+    "globalId" : null,
+    "type" : "unix",
+    "properties" : {
+      "display_label" : "omv1dvpivmon1",
+      "discovered_os_name" : "Red Hat(Linux)",
+      "serial_number" : "VMWARE-42 05 DE F7 91 51 17 B8-A2 91 04 E7 2D 74 FE 33",
+      "root_class" : "unix",
+      "primary_ip_address" : "192.168.2.167",
+      "memory_size" : 4096
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "4cd1933d1d910b6e88e204f2ed41b5a6",
+    "globalId" : null,
+    "type" : "unix",
+    "properties" : {
+      "display_label" : "dr-qcsd9-master-0",
+      "discovered_os_name" : "Red Hat(Linux)",
+      "serial_number" : "VMWARE-42 05 E9 5F B8 40 35 E8-5A EE 3F 1C 34 92 EA 96",
+      "root_class" : "unix",
+      "primary_ip_address" : "10.129.0.2",
+      "memory_size" : 16384
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "4adcdadd4c4552eab3720d5e5303a068",
+    "globalId" : null,
+    "type" : "unix",
+    "properties" : {
+      "display_label" : "s001kosgeb0",
+      "discovered_os_name" : "Ubuntu(Linux)",
+      "serial_number" : "VMWARE-42 05 85 B7 55 D5 B3 87-19 DA 6C A8 8E 80 10 E0",
+      "root_class" : "unix",
+      "primary_ip_address" : "192.168.2.110",
+      "memory_size" : 4096
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "48cb2d7845160dad90e01c0169565553",
+    "globalId" : null,
+    "type" : "unix",
+    "properties" : {
+      "display_label" : "bs-bastion",
+      "serial_number" : "VMWARE-42 05 63 67 51 48 0F D4-06 29 7D 38 4B 67 4C A4",
+      "root_class" : "unix",
+      "memory_size" : 16384
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "4cad1abb0144c79b97c73d966f240052",
+    "globalId" : null,
+    "type" : "unix",
+    "properties" : {
+      "display_label" : "s001elk1",
+      "discovered_os_name" : "Oracle Linux(Linux)",
+      "serial_number" : "VMWARE-42 05 E7 C0 EA 37 F9 B5-3E 7A EC 23 A3 D0 06 93",
+      "root_class" : "unix",
+      "primary_ip_address" : "192.168.51.1",
+      "memory_size" : 8192
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "461e46ef168f0ac8b6105b63cc779c42",
+    "globalId" : null,
+    "type" : "unix",
+    "properties" : {
+      "display_label" : "zbxapp",
+      "discovered_os_name" : "Oracle Linux(Linux)",
+      "serial_number" : "VMWARE-42 05 1A 3D B4 0B 1A 41-52 2F A1 4B 9B E9 F8 75",
+      "root_class" : "unix",
+      "primary_ip_address" : "192.168.1.81",
+      "memory_size" : 8192
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "4dd7288699f45aeb81c2ffb4bb81ea4d",
+    "globalId" : null,
+    "type" : "unix",
+    "properties" : {
+      "display_label" : "tofasdb",
+      "discovered_os_name" : "Red Hat(Linux)",
+      "serial_number" : "VMWARE-42 05 FC 2F E8 6B 3E 3F-04 3A 5E 34 51 B2 48 BD",
+      "root_class" : "unix",
+      "primary_ip_address" : "192.168.2.94",
+      "memory_size" : 16384
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "412fd1a6e41434048311560efeb6a8c4",
+    "globalId" : null,
+    "type" : "unix",
+    "properties" : {
+      "display_label" : "nnmilinux",
+      "discovered_os_name" : "CentOS(Linux)",
+      "serial_number" : "VMWARE-42 05 E9 1B 99 B3 F8 CA-CA 31 B4 C4 ED DD F1 9C",
+      "root_class" : "unix",
+      "primary_ip_address" : "192.168.1.147",
+      "memory_size" : 8192
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "40150541ae82c71d8cd6a24aab6b3ac4",
+    "globalId" : null,
+    "type" : "unix",
+    "properties" : {
+      "display_label" : "ffs_rhagent",
+      "serial_number" : "VMWARE-42 2D 96 94 AC C2 D3 BA-7C 3F 25 9A F6 83 D5 7E",
+      "root_class" : "unix",
+      "memory_size" : 4096
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "45d90f21ffd59510ad10730b32e51939",
+    "globalId" : null,
+    "type" : "unix",
+    "properties" : {
+      "display_label" : "ubuntu-voltage",
+      "discovered_os_name" : "Ubuntu(Linux)",
+      "serial_number" : "VMWARE-42 05 8E 5D 05 40 D4 4B-1B B3 B6 24 1C 06 D6 F5",
+      "root_class" : "unix",
+      "memory_size" : 4096
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "41d9487331562307bd3e2e30ca2a5522",
+    "globalId" : null,
+    "type" : "unix",
+    "properties" : {
+      "display_label" : "signoz",
+      "serial_number" : "VMWARE-42 05 24 80 4F 8B 09 BC-C5 24 04 A3 92 AF 7C 1E",
+      "root_class" : "unix",
+      "memory_size" : 8192
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "4c5319f3d27d0bdd9b45111321639ecb",
+    "globalId" : null,
+    "type" : "unix",
+    "properties" : {
+      "display_label" : "vm-1",
+      "discovered_os_name" : "Red Hat(Linux)",
+      "serial_number" : "VMWARE-42 05 28 53 A0 48 AF D3-95 87 68 34 08 FC 16 8A",
+      "root_class" : "unix",
+      "primary_ip_address" : "192.168.34.56",
+      "memory_size" : 16384
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "478af9d41b1510f5a2c32fe40e46e1c0",
+    "globalId" : null,
+    "type" : "switch",
+    "properties" : {
+      "display_label" : "konsalt",
+      "root_class" : "switch"
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  }, {
+    "ucmdbId" : "4fc8987870226697b01b78ce964818b8",
+    "globalId" : null,
+    "type" : "vmware_distributed_switch",
+    "properties" : {
+      "display_label" : "dvswitch",
+      "root_class" : "vmware_distributed_switch"
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Node"
+  } ],
+  "relations" : [ ]
+}

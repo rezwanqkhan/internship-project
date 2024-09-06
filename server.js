@@ -1,137 +1,126 @@
 const express = require('express');
-const fs = require('fs');
-const path = require('path');
-// const axios = require('axios'); // We'll use axios for UCMDB API calls
+const fs = require('fs').promises; // Use the promises API of the fs module
 
 const app = express();
 const port = 3000;
 
-// UCMDB API information (not used currently)
-/*
-
-const UCMDB_API_URL = 'https://your-ucmdb-api-url.com/api';
-const UCMDB_API_USERNAME = 'your-username';
-const UCMDB_API_PASSWORD = 'your-password';
-*/
-
-// Serve static files from the 'public' directory
 app.use(express.static('public'));
-// Add JSON parsing middleware
-app.use(express.json()); // for parsing application/json
+app.use(express.json());
 
-// Get server CIs
-app.get('/get-server-cis', (req, res) => {
-    // Current state: Reading from file
+async function readJSONFile(filename) {
     try {
-        const servers = fs.readFileSync('servers.txt', 'utf-8').split('\n').filter(Boolean);
-        res.json(servers);
+        const data = await fs.readFile(filename, 'utf8');
+        return JSON.parse(data);
     } catch (error) {
-        console.error('Error reading servers.txt:', error);
-        res.status(500).json({ error: 'Failed to read server list' });
+        console.error('Failed to read file:', error);
+        throw error;
     }
+}
 
-    // UCMDB API call (currently disabled)
-    /*
+app.get('/get-nodes', async (req, res) => {
     try {
-        const response = await axios.get(`${UCMDB_API_URL}/servers`, {
-            auth: {
-                username: UCMDB_API_USERNAME,
-                password: UCMDB_API_PASSWORD
-            }
-        });
-        const servers = response.data.map(server => server.name);
-        res.json(servers);
+        const jsonData = await readJSONFile('nodes_query.json'); // Assumes this reads the JSON file correctly
+        if (!jsonData.cis || !Array.isArray(jsonData.cis)) { // Ensure there is a 'cis' key and it's an array
+            throw new Error('Data read from file is not structured as expected');
+        }
+        res.json(jsonData.cis);
     } catch (error) {
-        console.error('Error fetching servers from UCMDB:', error);
-        res.status(500).json({ error: 'Failed to fetch servers from UCMDB' });
+        res.status(500).json({ error: error.message });
     }
-    */
 });
 
-// Get database CIs
-app.get('/get-database-cis', (req, res) => {
-    // Current state: Reading from file
+app.get('/get-computers', async (req, res) => {
     try {
-        const databases = fs.readFileSync('databases.txt', 'utf-8').split('\n').filter(Boolean);
-        res.json(databases);
+        const jsonData = await readJSONFile('database_query.json'); // Adjust filename as necessary
+        if (!jsonData.cis || !Array.isArray(jsonData.cis)) {
+            throw new Error('Data read from file is not structured as expected');
+        }
+        res.json(jsonData.cis);
     } catch (error) {
-        console.error('Error reading databases.txt:', error);
-        res.status(500).json({ error: 'Failed to read database list' });
+        res.status(500).json({ error: error.message });
     }
-
-    // UCMDB API call (currently disabled)
-    /*
-    try {
-        const response = await axios.get(`${UCMDB_API_URL}/databases`, {
-            auth: {
-                username: UCMDB_API_USERNAME,
-                password: UCMDB_API_PASSWORD
-            }
-        });
-        const databases = response.data.map(db => db.name);
-        res.json(databases);
-    } catch (error) {
-        console.error('Error fetching databases from UCMDB:', error);
-        res.status(500).json({ error: 'Failed to fetch databases from UCMDB' });
-    }
-    */
 });
-
-
 
 app.listen(port, () => {
     console.log(`Server running at http://localhost:${port}`);
 });
 
- 
 
-// run the following code when u using the UCMDB endpoint
-/*
-const express = require('express');
-const axios = require('axios');
 
-const app = express();
-const port = 3000;
 
-const UCMDB_API_URL = 'https://your-ucmdb-api-url.com/api';
-const UCMDB_API_USERNAME = 'your-username';
-const UCMDB_API_PASSWORD = 'your-password';
 
-app.use(express.static('public'));
-app.use(express.json());
+// const express = require('express');
+// const axios = require('axios');
+// const fs = require('fs').promises;  // Include the promises API of the fs module
 
-app.get('/get-server-cis', async (req, res) => {
-    try {
-        const response = await axios.get(`${UCMDB_API_URL}/servers`, {
-            auth: {
-                username: UCMDB_API_USERNAME,
-                password: UCMDB_API_PASSWORD
-            }
-        });
-        const servers = response.data.map(server => server.name);
-        res.json(servers);
-    } catch (error) {
-        console.error('UCMDB\'den sunucular alınırken hata oluştu:', error);
-        res.status(500).json({ error: 'UCMDB\'den sunucular alınamadı' });
-    }
-});
+// const app = express();
+// const port = 3000;
 
-app.get('/get-database-cis', async (req, res) => {
-    try {
-        const response = await axios.get(`${UCMDB_API_URL}/databases`, {
-            auth: {
-                username: UCMDB_API_USERNAME,
-                password: UCMDB_API_PASSWORD
-            }
-        });
-        const databases = response.data.map(db => db.name);
-        res.json(databases);
-    } catch (error) {
-        console.error('UCMDB\'den veritabanları alınırken hata oluştu:', error);
-        res.status(500).json({ error: 'UCMDB\'den veritabanları alınamadı' });
-    }
-});
+// const UCMDB_API_URL = 'https://s001ucmdb1.konsalt.info:8443/rest-api/topology';
+// const UCMDB_API_USERNAME = 'sysadmin';
+// const UCMDB_API_PASSWORD = 'Sysadmin123';
 
-app.listen(port, () => {
-    console.log(`Sunucu http://localhost:${port} adresinde çalışıyor`);
-});     */
+// app.use(express.static('public'));
+// app.use(express.json());
+
+// async function getUCMDBData(query) {
+//     try {
+//         const response = await axios.post(UCMDB_API_URL, query, {
+//             headers: {
+//                 'Content-Type': 'application/json',
+//             },
+//             auth: {
+//                 username: UCMDB_API_USERNAME,
+//                 password: UCMDB_API_PASSWORD
+//             }
+//         });
+//         return response.data;
+//     } catch (error) {
+//         console.error('Error fetching data from UCMDB:', error);
+//         throw error;
+//     }
+// }
+
+// async function readJSONFile(filename) {
+//     try {
+//         const data = await fs.readFile(filename, 'utf8');
+//         return JSON.parse(data);
+//     } catch (error) {
+//         console.error('Failed to read file:', error);
+//         throw error;
+//     }
+// }
+
+// app.get('/get-nodes', async (req, res) => {
+//     try {
+//         const query = await readJSONFile('nodes_query.json'); // Reads nodes query from a JSON file
+//         const data = await getUCMDBData(query);
+//         const nodes = data.map(node => ({
+//             ucmdbId: node.ucmdbId,
+//             type: node.type,
+//             label: node.label
+//         }));
+//         res.json(nodes);
+//     } catch (error) {
+//         res.status(500).json({ error: 'Failed to fetch nodes from UCMDB' });
+//     }
+// });
+
+// app.get('/get-computers', async (req, res) => {
+//     try {
+//         const query = await readJSONFile('database_query.json'); // Reads database query from a JSON file
+//         const data = await getUCMDBData(query);
+//         const computers = data.map(computer => ({
+//             ucmdbId: computer.ucmdbId,
+//             type: computer.type,
+//             label: computer.label
+//         }));
+//         res.json(computers);
+//     } catch (error) {
+//         res.status(500).json({ error: 'Failed to fetch computers from UCMDB' });
+//     }
+// });
+
+// app.listen(port, () => {
+//     console.log(`Server running at http://localhost:${port}`);
+// });
