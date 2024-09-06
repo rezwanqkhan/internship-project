@@ -3,43 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>UCMDB Server and Database Information</title>
+    <title>UCMDB Node and Computer Information</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="column">
-        <h2> the Servers in UCMDB</h2>
-        <table id="serverTable">
+        <h2>Nodes in UCMDB</h2>
+        <table id="nodeTable">
             <thead>
                 <tr>
-                    <th>Server name</th>
-                     
+                    <th>Label</th>
+                    <th>Type</th>
+                    <th>UCMDB ID</th>
                 </tr>
             </thead>
-            <tbody id="serverList"></tbody>
+            <tbody id="nodeList"></tbody>
         </table>
         <div class="button-container">
-            <button onclick="updateServers()">Update</button>
-            <button onclick="getServerCIs()">Bring the CIs</button>
+            <button onclick="updateNodes()">Update</button>
+            <button onclick="getNodes()">Bring the Nodes</button>
         </div>
     </div>
     <div class="column">
-        <h2>the Databeses in UCMDB</h2>
-        <table id="databaseTable">
+        <h2>Computers in UCMDB</h2>
+        <table id="computerTable">
             <thead>
                 <tr>
-                    <th>Database name</th>
-                    
+                    <th>Label</th>
+                    <th>Type</th>
+                    <th>UCMDB ID</th>
                 </tr>
             </thead>
-            <tbody id="databaseList"></tbody>
+            <tbody id="computerList"></tbody>
         </table>
         <div class="button-container">
-            <button onclick="updateDatabases()">Update</button>
-            <button onclick="getDatabaseCIs()">Bring the CIs</button>
+            <button onclick="updateComputers()">Update</button>
+            <button onclick="getComputers()">Bring the Computers</button>
         </div>
     </div>
-
+    
     <script src="script.js"></script>
 </body>
 </html>

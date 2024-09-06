@@ -1,0 +1,140 @@
+{
+  "cis" : [ {
+    "ucmdbId" : "486b0afc67a4cd0ca44de2bbcbcae721",
+    "globalId" : null,
+    "type" : "postgresql",
+    "properties" : {
+      "display_label" : "PostgreSQL Instance",
+      "application_ip" : "192.168.1.5",
+      "root_class" : "postgresql"
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Database"
+  }, {
+    "ucmdbId" : "4e3d76f38593eadf977581b5e4510cd4",
+    "globalId" : null,
+    "type" : "postgresql",
+    "properties" : {
+      "display_label" : "PostgreSQL Instance",
+      "application_ip" : "192.168.1.39",
+      "root_class" : "postgresql"
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Database"
+  }, {
+    "ucmdbId" : "4d9c8e5530ec8785bdb48137445be606",
+    "globalId" : null,
+    "type" : "postgresql",
+    "properties" : {
+      "display_label" : "PostgreSQL Instance (s001ucmdb1)",
+      "application_ip" : "192.168.1.14",
+      "root_class" : "postgresql"
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Database"
+  }, {
+    "ucmdbId" : "4d8c012b1c46ccd9ab7e3bf48fff96be",
+    "globalId" : null,
+    "type" : "sqlserver",
+    "properties" : {
+      "display_label" : "S001MSSQL",
+      "application_ip" : "192.168.3.48",
+      "application_username" : "sa",
+      "root_class" : "sqlserver"
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Database"
+  }, {
+    "ucmdbId" : "4265c91f24bc4d24808b08ba184d54b4",
+    "globalId" : null,
+    "type" : "sqlserver",
+    "properties" : {
+      "display_label" : "DEMO-SSRDS\\MSWIN8.SQLWID",
+      "application_ip" : "192.168.1.246",
+      "root_class" : "sqlserver"
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Database"
+  }, {
+    "ucmdbId" : "40d75dabe085447ca40bbe917aa975e8",
+    "globalId" : null,
+    "type" : "sqlserver",
+    "properties" : {
+      "display_label" : "KONSALT-DC\\MSWIN8.SQLWID",
+      "application_ip" : "192.168.1.10",
+      "root_class" : "sqlserver"
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Database"
+  }, {
+    "ucmdbId" : "42f0c45456248c76b301bac5eb1a0cfd",
+    "globalId" : null,
+    "type" : "sqlserver",
+    "properties" : {
+      "display_label" : "DRAS-SS-RDS\\MSWIN8.SQLWID",
+      "application_ip" : "192.168.3.254",
+      "root_class" : "sqlserver"
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Database"
+  }, {
+    "ucmdbId" : "4626c9bfecab25919f389b5fc18c1992",
+    "globalId" : null,
+    "type" : "sqlserver",
+    "properties" : {
+      "display_label" : "DEMO-SSDB",
+      "application_ip" : "192.168.1.242",
+      "root_class" : "sqlserver"
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Database"
+  }, {
+    "ucmdbId" : "49c03a9b693118119169364d219860d0",
+    "globalId" : null,
+    "type" : "sqlserver",
+    "properties" : {
+      "display_label" : "CENTRASAUDITDB (tevfik-centrify-rasdb-test)",
+      "application_ip" : "192.168.3.15",
+      "root_class" : "sqlserver"
+    },
+    "attributesDisplayNames" : null,
+    "attributesQualifiers" : null,
+    "attributesType" : null,
+    "classDefinition" : null,
+    "displayLabel" : null,
+    "label" : "Database"
+  } ],
+  "relations" : [ ]
+}

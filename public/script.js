@@ -1,71 +1,81 @@
-// Function to update CI status
-// Function to update servers (now just refreshes the list)
-function updateServers() {
-    getServerCIs();
-    alert('Sunucu listesi yenilendi!');
+// Function to update node list
+function updateNodes() {
+    getNodes();
+    alert('Node listesi yenilendi!');
 }
 
-// Function to get server CIsfunction getServerCIs() {
-    function getServerCIs() {
-        fetch('/get-server-cis')
-            .then(response => response.json())
-            .then(data => {
-                if (Array.isArray(data)) {
-                    const serverList = document.getElementById('serverList');
-                    serverList.innerHTML = '';
-                    data.forEach(server => {
-                        const [name] = server.split(','); // Yalnızca name değişkenini alıyoruz
-                        const row = document.createElement('tr');
-                        row.innerHTML = `
-                            <td>${name}</td>
-                        `;
-                        serverList.appendChild(row);
-                    });
-                } else {
-                    document.getElementById('serverList').innerHTML = '<tr><td colspan="3">Sunucu listesi alınamadı.</td></tr>';
-                }
-            })
-            .catch(error => {
-                console.error('Error:', error);
-                document.getElementById('serverList').innerHTML = '<tr><td colspan="3">Sunucu listesi alınamadı.</td></tr>';
-            });
-    }
-    
-
-
-// Function to update databases (now just refreshes the list)
-function updateDatabases() {
-    alert('Veritabanı listesi yenilendi!');
-    getDatabaseCIs();
-}
-
-// Function to get database CIs
-function getDatabaseCIs() {
-    fetch('/get-database-cis')
-        .then(response => response.json())
+// Function to get nodes
+function getNodes() {
+    fetch('/get-nodes')
+        .then(response => {
+            if (!response.ok) {
+                throw new Error('Network response was not ok');
+            }
+            return response.json();
+        })
         .then(data => {
+            console.log('Received data:', data); // Log to see what data looks like
+            const nodeList = document.getElementById('nodeList');
+            nodeList.innerHTML = '';
             if (Array.isArray(data)) {
-                const databaseList = document.getElementById('databaseList');
-                databaseList.innerHTML = '';
-                data.forEach(database => {
-                    const [name] = database.split(',');
+                data.forEach(node => {
                     const row = document.createElement('tr');
                     row.innerHTML = `
-                        <td>${name}</td>
-
+                        <td>${node.label}</td>
+                        <td>${node.type}</td>
+                        <td>${node.ucmdbId}</td>
                     `;
-                    databaseList.appendChild(row);
+                    nodeList.appendChild(row);
                 });
             } else {
-                document.getElementById('databaseList').innerHTML = '<tr><td colspan="3">Veritabanı listesi alınamadı.</td></tr>';
+                throw new Error('Data is not an array');
             }
         })
         .catch(error => {
             console.error('Error:', error);
-            document.getElementById('databaseList').innerHTML = '<tr><td colspan="3">Veritabanı listesi alınamadı.</td></tr>';
+            document.getElementById('nodeList').innerHTML = '<tr><td colspan="3">Node listesi alınamadı: ' + error.message + '</td></tr>';
+        });
+}
+
+// Function to update computer list
+function updateComputers() {
+    getComputers();
+    alert('Bilgisayar listesi yenilendi!');
+}
+
+// Function to get computers
+function getComputers() {
+    fetch('/get-computers')
+        .then(response => {
+            if (!response.ok) {
+                throw new Error('Network response was not ok');
+            }
+            return response.json();
+        })
+        .then(data => {
+            console.log('Received data:', data); // Log to see what data looks like
+            const computerList = document.getElementById('computerList');
+            computerList.innerHTML = '';
+            if (Array.isArray(data)) {
+                data.forEach(computer => {
+                    const row = document.createElement('tr');
+                    row.innerHTML = `
+                        <td>${computer.label}</td>
+                        <td>${computer.type}</td>
+                        <td>${computer.ucmdbId}</td>
+                    `;
+                    computerList.appendChild(row);
+                });
+            } else {
+                throw new Error('Data is not an array');
+            }
+        })
+        .catch(error => {
+            console.error('Error:', error);
+            document.getElementById('computerList').innerHTML = '<tr><td colspan="3">Bilgisayar listesi alınamadı: ' + error.message + '</td></tr>';
         });
 }
 
 // Initial load of CIs
-// getServerCIs();
-// getDatabaseCIs();
+// getNodes();
+// getComputers();
