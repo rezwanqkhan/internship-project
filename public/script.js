@@ -1,6 +1,7 @@
 // Function to update node list
 function updateNodes() {
     getNodes();
+    alert('Node listes are updating'); // Change the alert message to 'Node listes updated!');
 }
 
 // Function to fetch and display nodes
@@ -58,6 +59,7 @@ function getNodes() {
 // Function to update computer list
 function updateComputers() {
     getComputers();
+    alert('computer listes are updating');
 }
 
 // Function to fetch and display computers
