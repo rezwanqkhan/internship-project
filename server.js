@@ -77,10 +77,10 @@ app.listen(port, () => {
   console.log(`Server running at http://localhost:${port}`);
 });
 
+
 // ******************************************************************************
 
 // the following codes integrated for reading  from json
-
 
 
 // const express = require('express');
