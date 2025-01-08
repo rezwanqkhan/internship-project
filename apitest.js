@@ -1,7 +1,7 @@
 const axios = require('axios');
 const readline = require('readline');
 
-const API_KEY = '8c6e24ad4e84405942c1d8aaae85bdb8'; // Insert your OpenWeatherMap API key here
+const API_KEY = ''; // Insert your OpenWeatherMap API key here
 const BASE_URL = 'https://api.openweathermap.org/data/2.5';
 
 const rl = readline.createInterface({
