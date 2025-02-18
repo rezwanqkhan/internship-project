@@ -41,7 +41,7 @@ async function getUCMDBData(endpoint, body) {
     const token = await getAuthToken();
     const response = await axios.post(`${ucmdbConfig.baseURL}${endpoint}`, body, {
       headers: {
-        'Authorization': `Bearer ${token}`
+        'Authorization': `${token}`
       },
       httpsAgent: ucmdbConfig.httpsAgent
     });
@@ -80,7 +80,7 @@ app.listen(port, () => {
 
 // ******************************************************************************
 
-// the following codes integrated for reading  from json
+// //the following codes integrated for reading  from json
 
 
 // const express = require('express');
@@ -134,78 +134,4 @@ app.listen(port, () => {
 
 
 
-// const express = require('express');
-// const axios = require('axios');
-// const fs = require('fs').promises;  // Include the promises API of the fs module
 
-// const app = express();
-// const port = 3000;
-
-// const UCMDB_API_URL = 'https://s001ucmdb1.konsalt.info:8443/rest-api/topology';
-// const UCMDB_API_USERNAME = 'sysadmin';
-// const UCMDB_API_PASSWORD = 'Sysadmin123';
-
-// app.use(express.static('public'));
-// app.use(express.json());
-
-// async function getUCMDBData(query) {
-//     try {
-//         const response = await axios.post(UCMDB_API_URL, query, {
-//             headers: {
-//                 'Content-Type': 'application/json',
-//             },
-//             auth: {
-//                 username: UCMDB_API_USERNAME,
-//                 password: UCMDB_API_PASSWORD
-//             }
-//         });
-//         return response.data;
-//     } catch (error) {
-//         console.error('Error fetching data from UCMDB:', error);
-//         throw error;
-//     }
-// }
-
-// async function readJSONFile(filename) {
-//     try {
-//         const data = await fs.readFile(filename, 'utf8');
-//         return JSON.parse(data);
-//     } catch (error) {
-//         console.error('Failed to read file:', error);
-//         throw error;
-//     }
-// }
-
-// app.get('/get-nodes', async (req, res) => {
-//     try {
-//         const query = await readJSONFile('nodes_query.json'); // Reads nodes query from a JSON file
-//         const data = await getUCMDBData(query);
-//         const nodes = data.map(node => ({
-//             ucmdbId: node.ucmdbId,
-//             type: node.type,
-//             label: node.label
-//         }));
-//         res.json(nodes);
-//     } catch (error) {
-//         res.status(500).json({ error: 'Failed to fetch nodes from UCMDB' });
-//     }
-// });
-
-// app.get('/get-computers', async (req, res) => {
-//     try {
-//         const query = await readJSONFile('database_query.json'); // Reads database query from a JSON file
-//         const data = await getUCMDBData(query);
-//         const computers = data.map(computer => ({
-//             ucmdbId: computer.ucmdbId,
-//             type: computer.type,
-//             label: computer.label
-//         }));
-//         res.json(computers);
-//     } catch (error) {
-//         res.status(500).json({ error: 'Failed to fetch computers from UCMDB' });
-//     }
-// });
-
-// app.listen(port, () => {
-//     console.log(`Server running at http://localhost:${port}`);
-// });
